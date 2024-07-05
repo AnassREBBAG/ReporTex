@@ -16,22 +16,22 @@
 
 \hspace{\parindent}Les acteurs, qui représentent des rôles spécifiques joués par les utilisateurs, interagissent avec notre système en tant qu'entités internes ou externes. Ces acteurs peuvent consulter ou modifier l'état du système en envoyant et en recevant des messages contenant des données. Les différents acteurs impliqués dans notre système sont détaillés dans le tableau suivant.
 
- 
+
 \begin{table}[h]
-\centering
-\captionsetup{justification=centering}
-\begin{tabular}{|p{0.2\textwidth}|p{0.2\textwidth}|p{0.5\textwidth}|}
-\hline
-\textbf{Actor} & \textbf{Role} & \textbf{Main Responsibilities} \\ \hline
-\textbf{Super Admin} & Gestion complète du système & Personnel de B3G ayant des privilèges étendus pour gérer les tenants et éditions, les projets (menus et pages), la gestion de contenu (widgets et processus), ainsi que la gestion des utilisateurs et les permissions. \\ \hline
-\textbf{Tenant Admin} & Administration d’un tenant spécifique & Clients de B3G ayant des privilèges administratifs pour gérer les projets, la gestion de contenu, les utilisateurs et les autorisations au sein de leur propre espace de travail (tenant). \\ \hline
-\textbf{End User} & Consultation des projets/applications créés. & Personne ou entité qui utilise les plateformes créées par un tenant pour accéder aux fonctionnalités, contenus et services proposés. \\ \hline
-\end{tabular}
-\caption{Liste des acteurs}
-\label{tab:actors}
+    \centering
+    \captionsetup{justification=centering}
+    \begin{tabular}{|p{0.2\textwidth}|p{0.2\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \textbf{Acteur}       & \textbf{Role}                                & \textbf{Responsabilités}                                                                                                                                                                                                \\ \hline
+        \textbf{Super Admin}  & Gestion complète du système                  & Personnel de B3G ayant des privilèges étendus pour gérer les tenants et éditions, les projets (menus et pages), la gestion de contenu (widgets et processus), ainsi que la gestion des utilisateurs et les permissions. \\ \hline
+        \textbf{Tenant Admin} & Administration d'un tenant spécifique        & Clients de B3G ayant des privilèges administratifs pour gérer les projets, la gestion de contenu, les utilisateurs et les autorisations au sein de leur propre espace de travail (tenant).                              \\ \hline
+        \textbf{End User}     & Consultation des projets/applications créés. & Personne ou entité qui utilise les plateformes créées par un tenant pour accéder aux fonctionnalités, contenus et services proposés.                                                                                    \\ \hline
+    \end{tabular}
+    \caption{Liste des acteurs}
+    \label{tab:actors}
 \end{table}
 
-\textbf{NB} : "Tenant" dans ce contexte se réfère à une instance spécifique de l’application, souvent déployée pour un client ou une organisation spécifique. Chaque tenant fonctionne comme une entité indépendante, avec ses propres données, configurations et utilisateurs.
+\textbf{NB} : "Tenant" dans ce contexte se réfère à une instance spécifique de l'application, souvent déployée pour un client ou une organisation spécifique. Chaque tenant fonctionne comme une entité indépendante, avec ses propres données, configurations et utilisateurs.
 
 \subsection{Besoins fonctionnels}
 
@@ -39,40 +39,39 @@
 
 \begin{itemize}
     \item \textbf{Gestion des utilisateurs :}\\
-Authentification et autorisation, chaque acteur doit obligatoirement s'authentifier avant d'interagir avec le système.Ainsi que le système doit gérer les permissions en fonction des rôles des utilisateurs (Super Admin, Tenant Admin, Utilisateur Final).
+          Authentification et autorisation, chaque acteur doit obligatoirement s'authentifier avant d'interagir avec le système.Ainsi que le système doit gérer les permissions en fonction des rôles des utilisateurs (Super Admin, Tenant Admin, Utilisateur Final).
 
 
-Les Super Admins et les Tenant Admins doivent pouvoir créer, modifier et supprimer des comptes utilisateurs. 
+          Les Super Admins et les Tenant Admins doivent pouvoir créer, modifier et supprimer des comptes utilisateurs.
 
     \item \textbf{Gestion des tenants :}\\
-Pour la création et configuration des tenants, Les Super Admins doivent pouvoir créer et configurer de nouveaux tenants. Ainsi que les Tenant Admins doivent pouvoir configurer les paramètres de leur propre tenant, notamment les préférences et les règles spécifiques.
+          Pour la création et configuration des tenants, Les Super Admins doivent pouvoir créer et configurer de nouveaux tenants. Ainsi que les Tenant Admins doivent pouvoir configurer les paramètres de leur propre tenant, notamment les préférences et les règles spécifiques.
 
-Quant à la gestion des données et des configurations, chaque tenant doit disposer de ses propres données et configurations isolées des autres tenants pour garantir la sécurité et la confidentialité.
+          Quant à la gestion des données et des configurations, chaque tenant doit disposer de ses propres données et configurations isolées des autres tenants pour garantir la sécurité et la confidentialité.
 
     \item \textbf{Gestion des projets et du contenu :}\\
-Les Tenant Admins doivent pouvoir créer, modifier et supprimer des projets au sein de leur tenant.
+          Les Tenant Admins doivent pouvoir créer, modifier et supprimer des projets au sein de leur tenant.
 
-Les projets doivent pouvoir être configurés avec des menus, des pages et des widgets spécifiques selon les besoins du tenant.
+          Les projets doivent pouvoir être configurés avec des menus, des pages et des widgets spécifiques selon les besoins du tenant.
 
-Les Tenant Admins doivent pouvoir ajouter, éditer et supprimer du contenu dans les projets, y compris les widgets et les processus.
+          Les Tenant Admins doivent pouvoir ajouter, éditer et supprimer du contenu dans les projets, y compris les widgets et les processus.
 
-Organisation et structuration du contenu pour une navigation efficace et intuitive pour les utilisateurs finaux.
+          Organisation et structuration du contenu pour une navigation efficace et intuitive pour les utilisateurs finaux.
 
     \item \textbf{Gestion des autorisations :}\\
-Les Super Admins doivent pouvoir définir des autorisations pour les différents rôles au niveau global.
+          Les Super Admins doivent pouvoir définir des autorisations pour les différents rôles au niveau global.
 
-Les Tenant Admins doivent pouvoir définir des autorisations spécifiques pour les utilisateurs au sein de leur tenant, en fonction des projets et des contenus.
+          Les Tenant Admins doivent pouvoir définir des autorisations spécifiques pour les utilisateurs au sein de leur tenant, en fonction des projets et des contenus.
 
-Le système doit permettre de contrôler les droits d'accès, de modification et de suppression pour chaque utilisateur ou groupe d'utilisateurs en fonction de leur rôle et des autorisations définies.
+          Le système doit permettre de contrôler les droits d'accès, de modification et de suppression pour chaque utilisateur ou groupe d'utilisateurs en fonction de leur rôle et des autorisations définies.
 
     \item \textbf{Gestion des éditions :}\\
+          Les Super Admins doivent pouvoir créer et configurer différentes éditions du système, adaptées à des besoins spécifiques ou à des types de clients particuliers.
 
-Les Super Admins doivent pouvoir créer et configurer différentes éditions du système, adaptées à des besoins spécifiques ou à des types de clients particuliers.
+          Les Super Admins doivent pouvoir personnaliser chaque édition en fonction des besoins des clients, y compris les fonctionnalités disponibles, les thèmes et les configurations spécifiques.
 
-Les Super Admins doivent pouvoir personnaliser chaque édition en fonction des besoins des clients, y compris les fonctionnalités disponibles, les thèmes et les configurations spécifiques.
+          Les Super Admins doivent pouvoir mettre à jour et maintenir les éditions, incluant l'application de nouvelles fonctionnalités, correctifs et améliorations spécifiques à chaque édition.
 
-Les Super Admins doivent pouvoir mettre à jour et maintenir les éditions, incluant l'application de nouvelles fonctionnalités, correctifs et améliorations spécifiques à chaque édition.
-    
 \end{itemize}
 
 
@@ -82,29 +81,29 @@ Les Super Admins doivent pouvoir mettre à jour et maintenir les éditions, incl
 \hspace{\parindent}Les besoins non fonctionnels définissent les qualités et les contraintes auxquelles le système doit répondre pour garantir sa performance, sa sécurité et sa convivialité. Voici les principaux besoins non fonctionnels identifiés pour notre projet :
 \begin{itemize}
     \item \textbf{Sécurité :}
-    \begin{enumerate}
-        \item Protection des données sensibles et conformité aux normes de sécurité.
-        \item Cryptage des données et gestion des vulnérabilités.
-    \end{enumerate}
+          \begin{enumerate}
+              \item Protection des données sensibles et conformité aux normes de sécurité.
+              \item Cryptage des données et gestion des vulnérabilités.
+          \end{enumerate}
 
     \item \textbf{Performance :}
-        \begin{enumerate}
-        \item Temps de réponse rapide et capacité à gérer une charge élevée.
-        \item Optimisation des temps de chargement.
-        \end{enumerate}
+          \begin{enumerate}
+              \item Temps de réponse rapide et capacité à gérer une charge élevée.
+              \item Optimisation des temps de chargement.
+          \end{enumerate}
 
     \item \textbf{Disponibilité :}\\
-        Garantir un temps de disponibilité élevé, visant à atteindre un taux cible de disponibilité de 90\%, et mettre en place des mécanismes de récupération pour assurer une continuité de service en cas de défaillance.
+          Garantir un temps de disponibilité élevé, visant à atteindre un taux cible de disponibilité de 90\%, et mettre en place des mécanismes de récupération pour assurer une continuité de service en cas de défaillance.
 
     \item \textbf{Facilité d'Utilisation :}
-    \begin{enumerate}
-        \item Interface utilisateur conviviale et documentation complète.
+          \begin{enumerate}
+              \item Interface utilisateur conviviale et documentation complète.
 
-        \item Formation et support pour les utilisateurs.
-    \end{enumerate}
+              \item Formation et support pour les utilisateurs.
+          \end{enumerate}
 
     \item \textbf{Interopérabilité :}\\
-    Capacité à intégrer avec d'autres systèmes et à échanger des données.
+          Capacité à intégrer avec d'autres systèmes et à échanger des données.
 \end{itemize}
 
 
@@ -151,7 +150,7 @@ Les Super Admins doivent pouvoir mettre à jour et maintenir les éditions, incl
 Le diagramme suivant représente les cas d'utilisation pour la gestion des tenants, l'édition et les permissions dans notre système Fawri-CMS :
 \textbf{-----Insert diag cas d'utilisation Gestion des tenants, éditions et permissions----}
 
-
+/
 
 
 
@@ -275,7 +274,7 @@ Le diagramme suivant représente la structure des classes dans notre système Fa
 
 \textbf{Utilisation} : En-têtes de page, pieds de page, documents marketing et matériel de présentation. Il doit être placé de manière cohérente, généralement en haut à gauche de chaque page.
 \\
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=6cm]{Figures/fawri_cms_logo.PNG}
     \caption{Logo Fawri CMS}
@@ -286,7 +285,7 @@ Le diagramme suivant représente la structure des classes dans notre système Fa
 \subsection{Palette de couleurs}
 \hspace{\parindent}Les couleurs jouent un rôle crucial dans l'identité visuelle de Fawri-CMS. Dans notre projet, nous avons utilisé la palette de couleurs suivante :
 \\
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=12cm]{Figures/palette.PNG}
     \caption{La palette des couleurs}
@@ -365,7 +364,7 @@ La police principale est principalement utilisée pour les titres et les sous-ti
 \subsection{Icônes}
 \hspace{\parindent}Dans ce projet, nous avons utilisé la bibliothèque d'icônes Font Awesome.
 \\
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{Figures/icons.PNG}
     \caption{La bibliothèque d'icons Font Awsome}
@@ -390,7 +389,7 @@ La police principale est principalement utilisée pour les titres et les sous-ti
 
 \textbf{Prototypage} : Grâce à ses fonctionnalités de prototypage avancées, nous avons pu simuler les interactions utilisateur et tester les flux de navigation avant le développement. Cela nous a permis d'identifier les problèmes d'expérience utilisateur et d'itérer rapidement sur les designs.
 \\
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=17cm]{Figures/figma.PNG}
     \caption{La maquette d'interactivité de l'interface utilisateur de Fawri CMS}
@@ -421,7 +420,7 @@ La police principale est principalement utilisée pour les titres et les sous-ti
 %  \endfirsthead
 
 %  \hline
- 
+
 %  Cell & Description  \\ 
 %  \hline
 %  \endhead
@@ -458,7 +457,7 @@ La police principale est principalement utilisée pour les titres et les sous-ti
 
 %  \end{longtable}
 
- 
+
 
 
 \newpage
