@@ -563,13 +563,11 @@ INPUT .\Frontmatter\Dedication.tex
 INPUT Frontmatter\Dedication.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT Frontmatter\Acknowledgements.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Frontmatter\Résumé.tex
 INPUT .\Frontmatter\Résumé.tex
 INPUT .\Frontmatter\Résumé.tex
@@ -594,6 +592,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\arabtex\xnsh14bf.tfm
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
 OUTPUT main.lof
 INPUT .\main.lot
 INPUT .\main.lot
@@ -744,6 +743,49 @@ INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT Chapters\Chapter2.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case globale.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\use case gestion des projets.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\gestion de contenu.png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\diag de classe.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
 INPUT .\Figures\fawri_cms_logo.PNG
 INPUT .\Figures\fawri_cms_logo.PNG
 INPUT .\Figures\fawri_cms_logo.PNG
@@ -917,6 +959,13 @@ INPUT .\Figures\dddl.png
 INPUT .\Figures\dddl.png
 INPUT .\Figures\dddl.png
 INPUT .\Figures\dddl.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
+INPUT .\Figures\tbd.png
 INPUT .\Figures\multytenancy.png
 INPUT .\Figures\multytenancy.png
 INPUT .\Figures\multytenancy.png
