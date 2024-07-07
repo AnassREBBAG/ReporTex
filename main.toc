@@ -1,4 +1,4 @@
-\babel@toc {nil}{}\relax 
+\babel@toc {french}{}\relax 
 \contentsline {chapter}{Dédicaces}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{ii}{chapter*.2}%
 \contentsline {chapter}{Résumé}{iii}{chapter*.3}%
@@ -19,59 +19,59 @@
 \contentsline {section}{\numberline {1.2}Contexte général du projet}{6}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}La transformation digitale des banques}{6}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Technologie Low-Code}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Content Management System (CMS)}{13}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}Content Management System (CMS)}{12}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Présentation de Fawri-Flow}{16}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1.3}Problématique }{17}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objectifs du Projet et Solutions Proposées}{18}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Gestion du projet}{19}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Approche Scrum}{19}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.4}Objectifs du Projet et Solutions Proposées}{17}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Gestion du projet}{18}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Approche Scrum}{18}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Outils de collaboration}{20}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Gestion des versions}{21}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Planning du projet}{22}{subsection.1.5.4}%
-\contentsline {chapter}{\numberline {2}Analyse et Conception}{25}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Analyse des besoins}{26}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Identification des acteurs}{26}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Besoins fonctionnels}{26}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Besoins non fonctionnels}{28}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Conception}{28}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Diagramme de cas d’utilisation global}{29}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Diagramme de cas d'utilisation : Gestion des projets}{30}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Diagramme de cas d’utilisation : Gestion de contenu}{30}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Diagramme de cas d'utilisation : Gestion des tenants, éditions et permissions}{31}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Diagramme de classes}{32}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Diagrammes de séquence}{34}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Charte Graphique}{37}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Logo et Identité Visuelle :}{37}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Palette de couleurs}{38}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Typographie}{38}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Boutons et Interactions}{39}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Icônes}{39}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}La Conception d'Interfaces :}{40}{subsection.2.3.6}%
-\contentsline {chapter}{\numberline {3}Outils, Méthodologies et Architecture}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Outils de conception et modélisation}{44}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Langages de programmation}{45}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Framework et bibliothèques}{46}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Outils et logiciels}{50}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Environnement de Test}{52}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Méthodologie}{53}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Test Driven Development}{53}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Domain-Driven Design (DDD)}{54}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Développement basé sur le tronc (Trunk-Based Development)}{57}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Multitenancy : Une Architecture Efficace et Évolutive pour les Applications SaaS}{58}{subsection.3.6.4}%
-\contentsline {section}{\numberline {3.7}Architecture de la solution}{59}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Architecture de la solution Fawri-CMS suivant le DDD}{59}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Architecture technique suivant le Template d’ABP}{60}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}Implémentation et Réalisation}{65}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Mise en place de l'environnement de développement}{66}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Couche de domaine (Domain Layer)}{66}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Couche d'infrastructure (Infrastructure Layer)}{66}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Couche d'application (Application Layer)}{67}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Couche de présentation (Presentation Layer)}{72}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Intégration d'Identity Server dans Fawri-CMS avec l'ABP Framework}{74}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Gestion des tenants}{75}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Interface d’utilisateur}{76}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Authentification de l’application :}{76}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Interface Super Admin}{77}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Interface Tenant}{79}{subsection.4.8.3}%
-\contentsline {chapter}{Conclusion générale }{86}{chapter*.102}%
-\contentsline {chapter}{Bibliographie}{88}{appendix*.103}%
+\contentsline {subsection}{\numberline {1.5.4}Planning du projet}{21}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {2}Analyse et Conception}{24}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Analyse des besoins}{25}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Identification des acteurs}{25}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Besoins fonctionnels}{25}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Besoins non fonctionnels}{27}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Conception}{27}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Diagramme de cas d’utilisation global}{27}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Diagramme de cas d'utilisation : Gestion des projets}{28}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Diagramme de cas d’utilisation : Gestion de contenu}{29}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Diagramme de cas d'utilisation : Gestion des tenants, éditions et permissions}{30}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Diagramme de classes}{31}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Diagrammes de séquence}{33}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Charte Graphique}{36}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Logo et Identité Visuelle :}{36}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Palette de couleurs}{37}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Typographie}{37}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Boutons et Interactions}{38}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Icônes}{38}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}La Conception d'Interfaces :}{39}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Outils, Méthodologies et Architecture}{42}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Outils de conception et modélisation}{43}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Langages de programmation}{44}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Framework et bibliothèques}{45}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Outils et logiciels}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Environnement de Test}{51}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Méthodologie}{52}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Test Driven Development}{52}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Domain-Driven Design (DDD)}{53}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Développement basé sur le tronc (Trunk-Based Development)}{55}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Multitenancy : Une Architecture Efficace et Évolutive pour les Applications SaaS}{56}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Architecture de la solution}{57}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Architecture de la solution Fawri-CMS suivant le DDD}{57}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Architecture technique suivant le Template d’ABP}{59}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Implémentation et Réalisation}{63}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mise en place de l'environnement de développement}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Couche de domaine (Domain Layer)}{64}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Couche d'infrastructure (Infrastructure Layer)}{64}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Couche d'application (Application Layer)}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Couche de présentation (Presentation Layer)}{70}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Intégration d'Identity Server dans Fawri-CMS avec l'ABP Framework}{71}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Gestion des tenants}{73}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Interface d’utilisateur}{74}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Authentification de l’application :}{74}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Interface Super Admin}{75}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Interface Tenant}{77}{subsection.4.8.3}%
+\contentsline {chapter}{Conclusion générale }{84}{chapter*.102}%
+\contentsline {chapter}{Bibliographie}{86}{appendix*.103}%

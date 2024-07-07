@@ -3,7 +3,8 @@
 \usepackage{arabtex}
 \usepackage{utf8}
 \setcode{utf8}
-\usepackage{babel}
+% \usepackage{babel}
+\usepackage[french]{babel}
 \usepackage{svg}
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -60,11 +61,11 @@
 
 % Clear Header Style on the Last Empty Odd pages
 \makeatletter
-  \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
-      \hbox{}%
-       \thispagestyle{empty}%              % Empty header styles
-       \newpage%
-       \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+            \hbox{}%
+            \thispagestyle{empty}%              % Empty header styles
+            \newpage%
+            \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
 
 
@@ -127,16 +128,16 @@
 
 
 \newenvironment{dedication}
-  {%\clearpage           % we want a new page          %% I commented this
-   \thispagestyle{empty}% no header and footer
-   \vspace*{\stretch{1}}% some space at the top
-   \itshape             % the text is in italics
-   \raggedleft          % flush to the right margin
-  }
-  {\par % end the paragraph
-   \vspace{\stretch{3}} % space at bottom is three times that at the top
-   \clearpage           % finish off the page
-  }
+{%\clearpage           % we want a new page          %% I commented this
+    \thispagestyle{empty}% no header and footer
+    \vspace*{\stretch{1}}% some space at the top
+    \itshape             % the text is in italics
+    \raggedleft          % flush to the right margin
+}
+{\par % end the paragraph
+    \vspace{\stretch{3}} % space at bottom is three times that at the top
+    \clearpage           % finish off the page
+}
 
 
-  
+
