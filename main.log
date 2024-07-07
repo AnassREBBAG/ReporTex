@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.2)  7 JUL 2024 03:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.2)  7 JUL 2024 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1049,21 +1049,6 @@ LaTeX Warning: Label `fig:my_label' multiply defined.
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
 
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
 
@@ -1296,15 +1281,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--99
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [9
+ (Endmatter/Glossary.tex [9
 
-] (main.toc [10
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
-] [11])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) [10
+
+] (Endmatter/Acronyms.tex [11
+
+]) (main.toc [12
+
+] [13])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- [12] (Chapters/Introduction.tex
+ [14] (Chapters/Introduction.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 16.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1326,56 +1335,56 @@ Chapter 1.
 [3
 
 ]
-<Logos/B3G.png, id=652, 602.25pt x 137.51375pt>
+<Logos/B3G.png, id=662, 602.25pt x 137.51375pt>
 File: Logos/B3G.png Graphic file (type png)
 <use Logos/B3G.png>
 Package pdftex.def Info: Logos/B3G.png  used on input line 26.
 (pdftex.def)             Requested size: 284.52756pt x 64.96928pt.
  [4 <./Logos/B3G.png>]
-<Logos/fawri.png, id=659, 180.675pt x 180.675pt>
+<Logos/fawri.png, id=672, 180.675pt x 180.675pt>
 File: Logos/fawri.png Graphic file (type png)
 <use Logos/fawri.png>
 Package pdftex.def Info: Logos/fawri.png  used on input line 149.
 (pdftex.def)             Requested size: 99.58464pt x 99.58382pt.
-<Figures/clients.png, id=660, 965.6075pt x 685.56125pt>
+<Figures/clients.png, id=673, 965.6075pt x 685.56125pt>
 File: Figures/clients.png Graphic file (type png)
 <use Figures/clients.png>
 Package pdftex.def Info: Figures/clients.png  used on input line 161.
 (pdftex.def)             Requested size: 341.43306pt x 242.40831pt.
  [5 <./Logos/fawri.png>] [6 <./Figures/clients.png>] [7] [8]
-<Figures/outsystems.png, id=680, 1096.095pt x 660.96938pt>
+<Figures/outsystems.png, id=692, 1096.095pt x 660.96938pt>
 File: Figures/outsystems.png Graphic file (type png)
 <use Figures/outsystems.png>
 Package pdftex.def Info: Figures/outsystems.png  used on input line 246.
 (pdftex.def)             Requested size: 426.79134pt x 257.36351pt.
  [9 <./Figures/outsystems.png>]
-<Figures/mendix.jpg, id=686, 1027.84pt x 671.50874pt>
+<Figures/mendix.jpg, id=699, 1027.84pt x 671.50874pt>
 File: Figures/mendix.jpg Graphic file (type jpg)
 <use Figures/mendix.jpg>
 Package pdftex.def Info: Figures/mendix.jpg  used on input line 259.
 (pdftex.def)             Requested size: 426.79134pt x 278.83488pt.
  [10 <./Figures/mendix.jpg>]
-<Figures/pega.jpg, id=691, 1027.84pt x 578.16pt>
+<Figures/pega.jpg, id=704, 1027.84pt x 578.16pt>
 File: Figures/pega.jpg Graphic file (type jpg)
 <use Figures/pega.jpg>
 Package pdftex.def Info: Figures/pega.jpg  used on input line 271.
 (pdftex.def)             Requested size: 426.79134pt x 240.07307pt.
-<Figures/appian.jpg, id=692, 1204.5pt x 630.355pt>
+<Figures/appian.jpg, id=705, 1204.5pt x 630.355pt>
 File: Figures/appian.jpg Graphic file (type jpg)
 <use Figures/appian.jpg>
 Package pdftex.def Info: Figures/appian.jpg  used on input line 281.
 (pdftex.def)             Requested size: 426.79134pt x 223.35918pt.
  [11 <./Figures/pega.jpg>] [12 <./Figures/appian.jpg>] [13]
-<Figures/WordPress.png, id=706, 2007.5pt x 1084.05pt>
+<Figures/WordPress.png, id=722, 2007.5pt x 1084.05pt>
 File: Figures/WordPress.png Graphic file (type png)
 <use Figures/WordPress.png>
 Package pdftex.def Info: Figures/WordPress.png  used on input line 342.
-(pdftex.def)             Requested size: 170.71652pt x 92.18437pt.
-<Figures/Drupal.png, id=707, 164.615pt x 125.80333pt>
+(pdftex.def)             Requested size: 142.26378pt x 76.81755pt.
+<Figures/Drupal.png, id=723, 164.615pt x 125.80333pt>
 File: Figures/Drupal.png Graphic file (type png)
 <use Figures/Drupal.png>
 Package pdftex.def Info: Figures/Drupal.png  used on input line 354.
-(pdftex.def)             Requested size: 142.26378pt x 108.7243pt.
+(pdftex.def)             Requested size: 113.81102pt x 86.97906pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 349--357
 
@@ -1387,24 +1396,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--357
  []
 
 [14 <./Figures/WordPress.png>]
-<Figures/Joomla.png, id=713, 332.24126pt x 276.03125pt>
+<Figures/Joomla.png, id=733, 332.24126pt x 276.03125pt>
 File: Figures/Joomla.png Graphic file (type png)
 <use Figures/Joomla.png>
 Package pdftex.def Info: Figures/Joomla.png  used on input line 364.
-(pdftex.def)             Requested size: 199.16928pt x 165.4726pt.
-<Figures/Sitecore.png, id=714, 301.125pt x 213.79875pt>
+(pdftex.def)             Requested size: 142.26378pt x 118.1941pt.
+<Figures/Sitecore.png, id=734, 301.125pt x 213.79875pt>
 File: Figures/Sitecore.png Graphic file (type png)
 <use Figures/Sitecore.png>
 Package pdftex.def Info: Figures/Sitecore.png  used on input line 374.
 (pdftex.def)             Requested size: 142.26378pt x 101.01065pt.
- [15 <./Figures/Drupal.png> <./Figures/Joomla.png>] [16 <./Figures/Sitecore.png>]
-<Figures/processmanagement.png, id=726, 950.55125pt x 476.27937pt>
+ [15 <./Figures/Drupal.png> <./Figures/Joomla.png> <./Figures/Sitecore.png>] [16]
+<Figures/processmanagement.png, id=747, 950.55125pt x 476.27937pt>
 File: Figures/processmanagement.png Graphic file (type png)
 <use Figures/processmanagement.png>
 Package pdftex.def Info: Figures/processmanagement.png  used on input line 463.
 (pdftex.def)             Requested size: 426.79134pt x 213.84407pt.
- [17] [18 <./Figures/processmanagement.png>] [19] [20]
-<Figures/scrumm.png, id=745, 2189.17876pt x 553.06625pt>
+ [17 <./Figures/processmanagement.png>] [18] [19]
+<Figures/scrumm.png, id=761, 2189.17876pt x 553.06625pt>
 File: Figures/scrumm.png Graphic file (type png)
 <use Figures/scrumm.png>
 Package pdftex.def Info: Figures/scrumm.png  used on input line 543.
@@ -1414,12 +1423,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
-<Figures/Microsoft_Teams.png, id=746, 3854.4pt x 2168.1pt>
+[20 <./Figures/scrumm.png>]
+<Figures/Microsoft_Teams.png, id=767, 3854.4pt x 2168.1pt>
 File: Figures/Microsoft_Teams.png Graphic file (type png)
 <use Figures/Microsoft_Teams.png>
 Package pdftex.def Info: Figures/Microsoft_Teams.png  used on input line 563.
 (pdftex.def)             Requested size: 170.71652pt x 96.0054pt.
-<Figures/outlook.png, id=747, 3854.4pt x 2168.1pt>
+<Figures/outlook.png, id=768, 3854.4pt x 2168.1pt>
 File: Figures/outlook.png Graphic file (type png)
 <use Figures/outlook.png>
 Package pdftex.def Info: Figures/outlook.png  used on input line 574.
@@ -1434,8 +1444,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 569--577
 
  []
 
-[21 <./Figures/scrumm.png> <./Figures/Microsoft_Teams.png>]
-<Figures/azur.png, id=754, 803.0pt x 501.875pt>
+<Figures/azur.png, id=769, 803.0pt x 501.875pt>
 File: Figures/azur.png Graphic file (type png)
 <use Figures/azur.png>
 Package pdftex.def Info: Figures/azur.png  used on input line 590.
@@ -1450,13 +1459,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 585--593
 
  []
 
-[22 <./Figures/outlook.png>]
-<Figures/sprints.PNG, id=760, 549.05125pt x 225.34187pt>
+[21 <./Figures/Microsoft_Teams.png> <./Figures/outlook.png>]
+<Figures/sprints.PNG, id=777, 549.05125pt x 225.34187pt>
 File: Figures/sprints.PNG Graphic file (type png)
 <use Figures/sprints.PNG>
 Package pdftex.def Info: Figures/sprints.PNG  used on input line 602.
 (pdftex.def)             Requested size: 512.1496pt x 210.21562pt.
- [23 <./Figures/azur.png (PNG copy)> <./Figures/sprints.PNG>]) (Chapters/Chapter2.tex [24]
+ [22 <./Figures/azur.png (PNG copy)>] [23 <./Figures/sprints.PNG>]) (Chapters/Chapter2.tex [24]
 Chapter 2.
 [25
 
@@ -1471,53 +1480,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
  []
 
 [26] [27] [28]
-<Figures/use case globale.png, id=793, 446.6286pt x 377.2494pt>
+<Figures/use case globale.png, id=814, 446.6286pt x 377.2494pt>
 File: Figures/use case globale.png Graphic file (type png)
 <use Figures/use case globale.png>
 Package pdftex.def Info: Figures/use case globale.png  used on input line 128.
 (pdftex.def)             Requested size: 483.69684pt x 408.55728pt.
  [29 <./Figures/use case globale.png>]
-<Figures/use case gestion des projets.png, id=800, 483.2454pt x 459.6372pt>
+<Figures/use case gestion des projets.png, id=820, 483.2454pt x 459.6372pt>
 File: Figures/use case gestion des projets.png Graphic file (type png)
 <use Figures/use case gestion des projets.png>
 Package pdftex.def Info: Figures/use case gestion des projets.png  used on input line 146.
 (pdftex.def)             Requested size: 483.69684pt x 460.08493pt.
  [30 <./Figures/use case gestion des projets.png>]
-<Figures/gestion de contenu.png, id=806, 454.8192pt x 245.718pt>
+<Figures/gestion de contenu.png, id=826, 454.8192pt x 245.718pt>
 File: Figures/gestion de contenu.png Graphic file (type png)
 <use Figures/gestion de contenu.png>
 Package pdftex.def Info: Figures/gestion de contenu.png  used on input line 160.
 (pdftex.def)             Requested size: 483.69684pt x 261.32217pt.
-<Figures/Gestion des tenants éditions et permissions.png, id=807, 468.3096pt x 403.2666pt>
+<Figures/Gestion des tenants éditions et permissions.png, id=827, 468.3096pt x 403.2666pt>
 File: Figures/Gestion des tenants éditions et permissions.png Graphic file (type png)
 <use Figures/Gestion des tenants éditions et permissions.png>
 Package pdftex.def Info: Figures/Gestion des tenants éditions et permissions.png  used on input line 176.
 (pdftex.def)             Requested size: 483.69684pt x 416.53836pt.
  [31 <./Figures/gestion de contenu.png>]
-<Figures/diag de classe.png, id=813, 1324.7091pt x 1039.0017pt>
+<Figures/diag de classe.png, id=833, 1324.7091pt x 1039.0017pt>
 File: Figures/diag de classe.png Graphic file (type png)
 <use Figures/diag de classe.png>
 Package pdftex.def Info: Figures/diag de classe.png  used on input line 197.
-(pdftex.def)             Requested size: 483.69684pt x 379.36722pt.
- [32 <./Figures/Gestion des tenants éditions et permissions.png>] [33 <./Figures/diag de classe.png>]
-<Figures/Diagramme_sequence _Recuperation_list_proc.png, id=824, 305.4612pt x 239.4546pt>
+(pdftex.def)             Requested size: 569.05511pt x 446.31812pt.
+
+Overfull \hbox (40.11836pt too wide) in paragraph at lines 197--198
+ [][] 
+ []
+
+[32 <./Figures/Gestion des tenants éditions et permissions.png>] [33 <./Figures/diag de classe.png>]
+<Figures/Diagramme_sequence _Recuperation_list_proc.png, id=845, 305.4612pt x 239.4546pt>
 File: Figures/Diagramme_sequence _Recuperation_list_proc.png Graphic file (type png)
 <use Figures/Diagramme_sequence _Recuperation_list_proc.png>
 Package pdftex.def Info: Figures/Diagramme_sequence _Recuperation_list_proc.png  used on input line 245.
 (pdftex.def)             Requested size: 312.9803pt x 245.36581pt.
-<Figures/diagsec_Gestion_projets.png, id=825, 395.076pt x 481.3182pt>
+<Figures/diagsec_Gestion_projets.png, id=846, 395.076pt x 481.3182pt>
 File: Figures/diagsec_Gestion_projets.png Graphic file (type png)
 <use Figures/diagsec_Gestion_projets.png>
 Package pdftex.def Info: Figures/diagsec_Gestion_projets.png  used on input line 260.
 (pdftex.def)             Requested size: 312.9803pt x 381.30948pt.
  [34 <./Figures/Diagramme_sequence _Recuperation_list_proc.png>]
-<Figures/diagsec_Gestion_permissions.png, id=833, 425.4294pt x 448.5558pt>
+<Figures/diagsec_Gestion_permissions.png, id=853, 425.4294pt x 448.5558pt>
 File: Figures/diagsec_Gestion_permissions.png Graphic file (type png)
 <use Figures/diagsec_Gestion_permissions.png>
 Package pdftex.def Info: Figures/diagsec_Gestion_permissions.png  used on input line 277.
 (pdftex.def)             Requested size: 312.9803pt x 330.00964pt.
  [35 <./Figures/diagsec_Gestion_projets.png>]
-<Figures/diagsec_Gestion_editions_tenants.png, id=841, 251.9814pt x 264.5082pt>
+<Figures/diagsec_Gestion_editions_tenants.png, id=861, 251.9814pt x 264.5082pt>
 File: Figures/diagsec_Gestion_editions_tenants.png Graphic file (type png)
 <use Figures/diagsec_Gestion_editions_tenants.png>
 Package pdftex.def Info: Figures/diagsec_Gestion_editions_tenants.png  used on input line 295.
@@ -1527,7 +1541,7 @@ Overfull \hbox (7.35442pt too wide) in paragraph at lines 330--331
  \T1/LobsterTwo-LF/bx/it/12 Le logo doit �tre uti-lis� dans toutes les com-mu-ni-ca-tions of-fi-cielles et sur toutes les pages de l'application.
  []
 
-<Figures/fawri_cms_logo.PNG, id=848, 417.56pt x 163.61125pt>
+<Figures/fawri_cms_logo.PNG, id=868, 417.56pt x 163.61125pt>
 File: Figures/fawri_cms_logo.PNG Graphic file (type png)
 <use Figures/fawri_cms_logo.PNG>
 Package pdftex.def Info: Figures/fawri_cms_logo.PNG  used on input line 338.
@@ -1538,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--341
  []
 
 [37 <./Figures/diagsec_Gestion_editions_tenants.png>]
-<Figures/palette.PNG, id=854, 587.69562pt x 220.32312pt>
+<Figures/palette.PNG, id=874, 587.69562pt x 220.32312pt>
 File: Figures/palette.PNG Graphic file (type png)
 <use Figures/palette.PNG>
 Package pdftex.def Info: Figures/palette.PNG  used on input line 349.
@@ -1549,7 +1563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--352
  []
 
 [38 <./Figures/fawri_cms_logo.PNG> <./Figures/palette.PNG>]
-<Figures/icons.PNG, id=861, 1927.2pt x 963.6pt>
+<Figures/icons.PNG, id=881, 1927.2pt x 963.6pt>
 File: Figures/icons.PNG Graphic file (type png)
 <use Figures/icons.PNG>
 Package pdftex.def Info: Figures/icons.PNG  used on input line 428.
@@ -1560,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--431
  []
 
 [39]
-<Figures/figma.PNG, id=866, 594.22pt x 248.93pt>
+<Figures/figma.PNG, id=887, 594.22pt x 248.93pt>
 File: Figures/figma.PNG Graphic file (type png)
 <use Figures/figma.PNG>
 Package pdftex.def Info: Figures/figma.PNG  used on input line 453.
@@ -1575,7 +1589,7 @@ Chapter 3.
 [43
 
 ]
-<Figures/UML_logo.svg.png, id=885, 1284.8pt x 934.49126pt>
+<Figures/UML_logo.svg.png, id=905, 1284.8pt x 934.49126pt>
 File: Figures/UML_logo.svg.png Graphic file (type png)
 <use Figures/UML_logo.svg.png>
 Package pdftex.def Info: Figures/UML_logo.svg.png  used on input line 24.
@@ -1585,7 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
-<Figures/figma logo.png, id=886, 1673.25125pt x 2509.375pt>
+<Figures/figma logo.png, id=906, 1673.25125pt x 2509.375pt>
 File: Figures/figma logo.png Graphic file (type png)
 <use Figures/figma logo.png>
 Package pdftex.def Info: Figures/figma logo.png  used on input line 33.
@@ -1596,60 +1610,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
  []
 
 [44 <./Figures/UML_logo.svg.png> <./Figures/figma logo.png>]
-<Figures/csharp.png, id=893, 1826.825pt x 2055.68pt>
+<Figures/csharp.png, id=913, 1826.825pt x 2055.68pt>
 File: Figures/csharp.png Graphic file (type png)
 <use Figures/csharp.png>
 Package pdftex.def Info: Figures/csharp.png  used on input line 52.
-(pdftex.def)             Requested size: 113.81102pt x 128.04054pt.
+(pdftex.def)             Requested size: 85.35826pt x 96.04608pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
 
-<Figures/sql.png, id=894, 903.375pt x 421.575pt>
+<Figures/sql.png, id=914, 903.375pt x 421.575pt>
 File: Figures/sql.png Graphic file (type png)
 <use Figures/sql.png>
 Package pdftex.def Info: Figures/sql.png  used on input line 62.
-(pdftex.def)             Requested size: 170.71652pt x 79.66264pt.
+(pdftex.def)             Requested size: 113.81102pt x 53.10843pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--65
 
  []
 
-<Figures/javascript.png, id=895, 1055.945pt x 1055.945pt>
+<Figures/javascript.png, id=915, 1055.945pt x 1055.945pt>
 File: Figures/javascript.png Graphic file (type png)
 <use Figures/javascript.png>
 Package pdftex.def Info: Figures/javascript.png  used on input line 73.
-(pdftex.def)             Requested size: 142.26378pt x 142.2564pt.
+(pdftex.def)             Requested size: 85.35826pt x 85.3474pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--76
 
  []
 
 [45 <./Figures/csharp.png> <./Figures/sql.png>]
-<Figures/angular.png, id=902, 1204.5pt x 1204.5pt>
+<Figures/angular.png, id=923, 1204.5pt x 1204.5pt>
 File: Figures/angular.png Graphic file (type png)
 <use Figures/angular.png>
 Package pdftex.def Info: Figures/angular.png  used on input line 91.
-(pdftex.def)             Requested size: 170.71652pt x 170.70569pt.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 87--94
 
  []
 
 [46 <./Figures/javascript.png>]
-<Figures/nodejs.png, id=908, 2569.6pt x 1571.8725pt>
+<Figures/nodejs.png, id=929, 2569.6pt x 1571.8725pt>
 File: Figures/nodejs.png Graphic file (type png)
 <use Figures/nodejs.png>
 Package pdftex.def Info: Figures/nodejs.png  used on input line 102.
-(pdftex.def)             Requested size: 170.71652pt x 104.42987pt.
+(pdftex.def)             Requested size: 113.81102pt x 69.60391pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--105
 
  []
 
 [47 <./Figures/angular.png> <./Figures/nodejs.png>]
-<Figures/abp.png, id=916, 533.995pt x 95.35625pt>
+<Figures/abp.png, id=938, 533.995pt x 95.35625pt>
 File: Figures/abp.png Graphic file (type png)
 <use Figures/abp.png>
 Package pdftex.def Info: Figures/abp.png  used on input line 124.
@@ -1659,7 +1673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--127
 
  []
 
-<Figures/dotnet.png, id=917, 3854.4pt x 2168.1pt>
+<Figures/dotnet.png, id=939, 3854.4pt x 2168.1pt>
 File: Figures/dotnet.png Graphic file (type png)
 <use Figures/dotnet.png>
 Package pdftex.def Info: Figures/dotnet.png  used on input line 138.
@@ -1670,7 +1684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--141
  []
 
 [48 <./Figures/abp.png>]
-<Figures/efcore.png, id=923, 593.21625pt x 361.35pt>
+<Figures/efcore.png, id=945, 593.21625pt x 361.35pt>
 File: Figures/efcore.png Graphic file (type png)
 <use Figures/efcore.png>
 Package pdftex.def Info: Figures/efcore.png  used on input line 150.
@@ -1681,7 +1695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--153
  []
 
 [49 <./Figures/dotnet.png> <./Figures/efcore.png (PNG copy)>]
-<Figures/dormiologo.png, id=929, 325.4559pt x 115.8729pt>
+<Figures/dormiologo.png, id=953, 325.4559pt x 115.8729pt>
 File: Figures/dormiologo.png Graphic file (type png)
 <use Figures/dormiologo.png>
 Package pdftex.def Info: Figures/dormiologo.png  used on input line 174.
@@ -1691,7 +1705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--177
 
  []
 
-<Figures/sqlserver.png, id=930, 1005.49565pt x 813.0375pt>
+<Figures/sqlserver.png, id=954, 1005.49565pt x 813.0375pt>
 File: Figures/sqlserver.png Graphic file (type png)
 <use Figures/sqlserver.png>
 Package pdftex.def Info: Figures/sqlserver.png  used on input line 189.
@@ -1701,7 +1715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--192
 
  []
 
-<Figures/sqlmanagementstudio.png, id=931, 403.5075pt x 380.42125pt>
+<Figures/sqlmanagementstudio.png, id=955, 403.5075pt x 380.42125pt>
 File: Figures/sqlmanagementstudio.png Graphic file (type png)
 <use Figures/sqlmanagementstudio.png>
 Package pdftex.def Info: Figures/sqlmanagementstudio.png  used on input line 200.
@@ -1712,7 +1726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--203
  []
 
 [50 <./Figures/dormiologo.png> <./Figures/sqlserver.png>]
-<Figures/Visual-Studio-logo.png, id=938, 3854.4pt x 2168.1pt>
+<Figures/Visual-Studio-logo.png, id=962, 3854.4pt x 2168.1pt>
 File: Figures/Visual-Studio-logo.png Graphic file (type png)
 <use Figures/Visual-Studio-logo.png>
 Package pdftex.def Info: Figures/Visual-Studio-logo.png  used on input line 210.
@@ -1722,7 +1736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--213
 
  []
 
-<Figures/vsclogo.png, id=939, 301.125pt x 298.11375pt>
+<Figures/vsclogo.png, id=963, 301.125pt x 298.11375pt>
 File: Figures/vsclogo.png Graphic file (type png)
 <use Figures/vsclogo.png>
 Package pdftex.def Info: Figures/vsclogo.png  used on input line 222.
@@ -1733,17 +1747,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--225
  []
 
 [51 <./Figures/sqlmanagementstudio.png> <./Figures/Visual-Studio-logo.png>]
-<Figures/gitlogo.jpg, id=946, 869.2475pt x 652.4375pt>
+<Figures/gitlogo.jpg, id=971, 869.2475pt x 652.4375pt>
 File: Figures/gitlogo.jpg Graphic file (type jpg)
 <use Figures/gitlogo.jpg>
 Package pdftex.def Info: Figures/gitlogo.jpg  used on input line 234.
-(pdftex.def)             Requested size: 227.62204pt x 170.8443pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--237
-
- []
-
-<Figures/xunitlogo.png, id=947, 830.10126pt x 280.04625pt>
+(pdftex.def)             Requested size: 170.71652pt x 128.13571pt.
+<Figures/xunitlogo.png, id=972, 830.10126pt x 280.04625pt>
 File: Figures/xunitlogo.png Graphic file (type png)
 <use Figures/xunitlogo.png>
 Package pdftex.def Info: Figures/xunitlogo.png  used on input line 248.
@@ -1754,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--251
  []
 
 [52 <./Figures/vsclogo.png> <./Figures/gitlogo.jpg>]
-<Figures/swaggerlogo.png, id=953, 1405.25pt x 393.47pt>
+<Figures/swaggerlogo.png, id=978, 1405.25pt x 393.47pt>
 File: Figures/swaggerlogo.png Graphic file (type png)
 <use Figures/swaggerlogo.png>
 Package pdftex.def Info: Figures/swaggerlogo.png  used on input line 258.
@@ -1764,105 +1773,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--261
 
  []
 
-<Figures/TDD.png, id=954, 385.44pt x 351.3125pt>
+<Figures/TDD.png, id=979, 385.44pt x 351.3125pt>
 File: Figures/TDD.png Graphic file (type png)
 <use Figures/TDD.png>
 Package pdftex.def Info: Figures/TDD.png  used on input line 277.
 (pdftex.def)             Requested size: 170.71652pt x 155.59648pt.
-[53 <./Figures/xunitlogo.png (PNG copy)> <./Figures/swaggerlogo.png (PNG copy)>] [54 <./Figures/TDD.png>] [55]
-<Figures/dddl.png, id=972, 1336.995pt x 850.17625pt>
+[53 <./Figures/xunitlogo.png (PNG copy)> <./Figures/swaggerlogo.png (PNG copy)> <./Figures/TDD.png>] [54] [55]
+<Figures/dddl.png, id=997, 1336.995pt x 850.17625pt>
 File: Figures/dddl.png Graphic file (type png)
 <use Figures/dddl.png>
 Package pdftex.def Info: Figures/dddl.png  used on input line 335.
 (pdftex.def)             Requested size: 256.0748pt x 162.83243pt.
  [56 <./Figures/dddl.png (PNG copy)>]
-<Figures/tbd.png, id=977, 542.025pt x 272.217pt>
+<Figures/tbd.png, id=1003, 542.025pt x 272.217pt>
 File: Figures/tbd.png Graphic file (type png)
 <use Figures/tbd.png>
 Package pdftex.def Info: Figures/tbd.png  used on input line 391.
 (pdftex.def)             Requested size: 426.79134pt x 214.35123pt.
- [57 <./Figures/tbd.png>] [58]
-<Figures/multytenancy.png, id=987, 1357.07pt x 1055.945pt>
+ [57 <./Figures/tbd.png>]
+<Figures/multytenancy.png, id=1010, 1357.07pt x 1055.945pt>
 File: Figures/multytenancy.png Graphic file (type png)
 <use Figures/multytenancy.png>
 Package pdftex.def Info: Figures/multytenancy.png  used on input line 446.
 (pdftex.def)             Requested size: 256.0748pt x 199.24597pt.
-<Figures/DDD flow.png, id=988, 1606.0pt x 729.72626pt>
+ [58]
+<Figures/DDD flow.png, id=1015, 1606.0pt x 729.72626pt>
 File: Figures/DDD flow.png Graphic file (type png)
 <use Figures/DDD flow.png>
 Package pdftex.def Info: Figures/DDD flow.png  used on input line 460.
 (pdftex.def)             Requested size: 483.69684pt x 219.77693pt.
- [59 <./Figures/multytenancy.png (PNG copy)>] [60 <./Figures/DDD flow.png (PNG copy)>]
-<Figures/src test.PNG, id=1007, 293.59688pt x 296.60812pt>
+ [59 <./Figures/multytenancy.png (PNG copy)> <./Figures/DDD flow.png (PNG copy)>] [60]
+<Figures/src test.PNG, id=1037, 293.59688pt x 296.60812pt>
 File: Figures/src test.PNG Graphic file (type png)
 <use Figures/src test.PNG>
 Package pdftex.def Info: Figures/src test.PNG  used on input line 506.
 (pdftex.def)             Requested size: 256.0748pt x 258.70323pt.
- [61 <./Figures/src test.PNG>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
-<Figures/presentation layer.PNG, id=1017, 278.03876pt x 62.2325pt>
+<Figures/presentation layer.PNG, id=1038, 278.03876pt x 62.2325pt>
 File: Figures/presentation layer.PNG Graphic file (type png)
 <use Figures/presentation layer.PNG>
 Package pdftex.def Info: Figures/presentation layer.PNG  used on input line 521.
 (pdftex.def)             Requested size: 256.0748pt x 57.31726pt.
-<Figures/application layer.PNG, id=1018, 282.55562pt x 34.1275pt>
+[61 <./Figures/src test.PNG> <./Figures/presentation layer.PNG>]
+<Figures/application layer.PNG, id=1045, 282.55562pt x 34.1275pt>
 File: Figures/application layer.PNG Graphic file (type png)
 <use Figures/application layer.PNG>
 Package pdftex.def Info: Figures/application layer.PNG  used on input line 534.
 (pdftex.def)             Requested size: 256.0748pt x 30.9316pt.
-<Figures/infra layer.PNG, id=1019, 506.89375pt x 75.78313pt>
+<Figures/infra layer.PNG, id=1046, 506.89375pt x 75.78313pt>
 File: Figures/infra layer.PNG Graphic file (type png)
 <use Figures/infra layer.PNG>
 Package pdftex.def Info: Figures/infra layer.PNG  used on input line 548.
 (pdftex.def)             Requested size: 256.0748pt x 38.28462pt.
-[62 <./Figures/presentation layer.PNG> <./Figures/application layer.PNG> <./Figures/infra layer.PNG>]
-<Figures/domain layer.PNG, id=1027, 294.60063pt x 33.62563pt>
+<Figures/domain layer.PNG, id=1047, 294.60063pt x 33.62563pt>
 File: Figures/domain layer.PNG Graphic file (type png)
 <use Figures/domain layer.PNG>
 Package pdftex.def Info: Figures/domain layer.PNG  used on input line 564.
 (pdftex.def)             Requested size: 256.0748pt x 29.22838pt.
-<Figures/test folder.PNG, id=1028, 293.59688pt x 111.41624pt>
+<Figures/test folder.PNG, id=1048, 293.59688pt x 111.41624pt>
 File: Figures/test folder.PNG Graphic file (type png)
 <use Figures/test folder.PNG>
 Package pdftex.def Info: Figures/test folder.PNG  used on input line 576.
 (pdftex.def)             Requested size: 256.0748pt x 97.17786pt.
- [63 <./Figures/domain layer.PNG> <./Figures/test folder.PNG>]) [64] (Chapters/Chapter4.tex
+ [62 <./Figures/application layer.PNG> <./Figures/infra layer.PNG> <./Figures/domain layer.PNG>] [63 <./Figures/test folder.PNG>]) [64] (Chapters/Chapter4.tex
 Chapter 4.
 [65
 
 ]
-<Figures/domain folder.PNG, id=1044, 278.03876pt x 274.02374pt>
+<Figures/domain folder.PNG, id=1070, 278.03876pt x 274.02374pt>
 File: Figures/domain folder.PNG Graphic file (type png)
 <use Figures/domain folder.PNG>
 Package pdftex.def Info: Figures/domain folder.PNG  used on input line 33.
 (pdftex.def)             Requested size: 256.0748pt x 252.38086pt.
-<Figures/entity fram core folder.PNG, id=1045, 271.51437pt x 181.17688pt>
+<Figures/entity fram core folder.PNG, id=1071, 271.51437pt x 181.17688pt>
 File: Figures/entity fram core folder.PNG Graphic file (type png)
 <use Figures/entity fram core folder.PNG>
 Package pdftex.def Info: Figures/entity fram core folder.PNG  used on input line 47.
 (pdftex.def)             Requested size: 256.0748pt x 170.8813pt.
  [66 <./Figures/domain folder.PNG>]
-<Figures/db set code.PNG, id=1051, 553.06625pt x 318.69063pt>
+<Figures/db set code.PNG, id=1077, 553.06625pt x 318.69063pt>
 File: Figures/db set code.PNG Graphic file (type png)
 <use Figures/db set code.PNG>
 Package pdftex.def Info: Figures/db set code.PNG  used on input line 55.
 (pdftex.def)             Requested size: 483.69684pt x 278.71744pt.
-<Figures/dtos.PNG, id=1052, 252.44313pt x 315.1775pt>
+<Figures/dtos.PNG, id=1078, 252.44313pt x 315.1775pt>
 File: Figures/dtos.PNG Graphic file (type png)
 <use Figures/dtos.PNG>
 Package pdftex.def Info: Figures/dtos.PNG  used on input line 65.
 (pdftex.def)             Requested size: 256.0748pt x 319.71661pt.
  [67 <./Figures/entity fram core folder.PNG> <./Figures/db set code.PNG>]
-<Figures/services impl.PNG, id=1059, 247.92625pt x 228.35312pt>
+<Figures/services impl.PNG, id=1085, 247.92625pt x 228.35312pt>
 File: Figures/services impl.PNG Graphic file (type png)
 <use Figures/services impl.PNG>
 Package pdftex.def Info: Figures/services impl.PNG  used on input line 74.
 (pdftex.def)             Requested size: 256.0748pt x 235.87534pt.
  [68 <./Figures/dtos.PNG>] [69 <./Figures/services impl.PNG>] [70] [71]
-<Figures/swagger apis.PNG, id=1079, 963.6pt x 518.43687pt>
+<Figures/swagger apis.PNG, id=1105, 963.6pt x 518.43687pt>
 File: Figures/swagger apis.PNG Graphic file (type png)
 <use Figures/swagger apis.PNG>
 Package pdftex.def Info: Figures/swagger apis.PNG  used on input line 317.
@@ -1873,7 +1883,7 @@ Overfull \hbox (5.262pt too wide) in paragraph at lines 325--326
  []
 
 [72 <./Figures/swagger apis.PNG>]
-<Figures/web folder.PNG, id=1085, 263.48438pt x 313.67188pt>
+<Figures/web folder.PNG, id=1111, 263.48438pt x 313.67188pt>
 File: Figures/web folder.PNG Graphic file (type png)
 <use Figures/web folder.PNG>
 Package pdftex.def Info: Figures/web folder.PNG  used on input line 331.
@@ -1884,36 +1894,36 @@ Overfull \hbox (0.40872pt too wide) in paragraph at lines 340--341
  []
 
 [73 <./Figures/web folder.PNG>]
-<Figures/login ui.PNG, id=1091, 314.67563pt x 368.87813pt>
+<Figures/login ui.PNG, id=1117, 314.67563pt x 368.87813pt>
 File: Figures/login ui.PNG Graphic file (type png)
 <use Figures/login ui.PNG>
 Package pdftex.def Info: Figures/login ui.PNG  used on input line 380.
 (pdftex.def)             Requested size: 256.0748pt x 300.1968pt.
  [74]
-<Figures/tenant code.PNG, id=1096, 467.24562pt x 277.53688pt>
+<Figures/tenant code.PNG, id=1122, 467.24562pt x 277.53688pt>
 File: Figures/tenant code.PNG Graphic file (type png)
 <use Figures/tenant code.PNG>
 Package pdftex.def Info: Figures/tenant code.PNG  used on input line 394.
 (pdftex.def)             Requested size: 369.88582pt x 219.71756pt.
  [75 <./Figures/login ui.PNG>]
-<Figures/full loging page.PNG, id=1102, 711.15688pt x 374.90062pt>
+<Figures/full loging page.PNG, id=1129, 711.15688pt x 374.90062pt>
 File: Figures/full loging page.PNG Graphic file (type png)
 <use Figures/full loging page.PNG>
 Package pdftex.def Info: Figures/full loging page.PNG  used on input line 413.
 (pdftex.def)             Requested size: 512.1496pt x 269.99689pt.
  [76 <./Figures/tenant code.PNG>]
-<Figures/fonctionnalite super admin.PNG, id=1108, 568.62437pt x 162.10562pt>
+<Figures/fonctionnalite super admin.PNG, id=1135, 568.62437pt x 162.10562pt>
 File: Figures/fonctionnalite super admin.PNG Graphic file (type png)
 <use Figures/fonctionnalite super admin.PNG>
 Package pdftex.def Info: Figures/fonctionnalite super admin.PNG  used on input line 426.
 (pdftex.def)             Requested size: 312.9803pt x 89.23009pt.
  [77 <./Figures/full loging page.PNG> <./Figures/fonctionnalite super admin.PNG>]
-<Figures/new edition.PNG, id=1117, 947.54pt x 476.27937pt>
+<Figures/new edition.PNG, id=1143, 947.54pt x 476.27937pt>
 File: Figures/new edition.PNG Graphic file (type png)
 <use Figures/new edition.PNG>
 Package pdftex.def Info: Figures/new edition.PNG  used on input line 438.
 (pdftex.def)             Requested size: 483.69684pt x 243.12454pt.
-<Figures/tenant screenshot.PNG, id=1118, 952.55875pt x 484.81125pt>
+<Figures/tenant screenshot.PNG, id=1144, 952.55875pt x 484.81125pt>
 File: Figures/tenant screenshot.PNG Graphic file (type png)
 <use Figures/tenant screenshot.PNG>
 Package pdftex.def Info: Figures/tenant screenshot.PNG  used on input line 446.
@@ -1924,65 +1934,52 @@ Overfull \hbox (0.59218pt too wide) in paragraph at lines 450--451
  []
 
 [78 <./Figures/new edition.PNG> <./Figures/tenant screenshot.PNG>]
-<Figures/new project.PNG, id=1126, 668.99937pt x 457.71pt>
+<Figures/new project.PNG, id=1152, 668.99937pt x 457.71pt>
 File: Figures/new project.PNG Graphic file (type png)
 <use Figures/new project.PNG>
 Package pdftex.def Info: Figures/new project.PNG  used on input line 483.
 (pdftex.def)             Requested size: 284.52756pt x 194.66734pt.
-<Figures/list projects.PNG, id=1127, 682.55pt x 275.0275pt>
+<Figures/list projects.PNG, id=1153, 682.55pt x 275.0275pt>
 File: Figures/list projects.PNG Graphic file (type png)
 <use Figures/list projects.PNG>
 Package pdftex.def Info: Figures/list projects.PNG  used on input line 489.
 (pdftex.def)             Requested size: 483.69684pt x 194.90578pt.
  [79 <./Figures/new project.PNG>]
-<Figures/list pages.PNG, id=1135, 897.85437pt x 484.81125pt>
+<Figures/list pages.PNG, id=1161, 897.85437pt x 484.81125pt>
 File: Figures/list pages.PNG Graphic file (type png)
 <use Figures/list pages.PNG>
 Package pdftex.def Info: Figures/list pages.PNG  used on input line 499.
 (pdftex.def)             Requested size: 483.69684pt x 261.18016pt.
-<Figures/manage page.PNG, id=1136, 905.88437pt x 456.70625pt>
+<Figures/manage page.PNG, id=1162, 905.88437pt x 456.70625pt>
 File: Figures/manage page.PNG Graphic file (type png)
 <use Figures/manage page.PNG>
 Package pdftex.def Info: Figures/manage page.PNG  used on input line 506.
 (pdftex.def)             Requested size: 483.69684pt x 243.85806pt.
  [80 <./Figures/list projects.PNG> <./Figures/list pages.PNG>]
-<Figures/process 1.PNG, id=1144, 314.67563pt x 345.79187pt>
+<Figures/process 1.PNG, id=1170, 314.67563pt x 345.79187pt>
 File: Figures/process 1.PNG Graphic file (type png)
 <use Figures/process 1.PNG>
 Package pdftex.def Info: Figures/process 1.PNG  used on input line 517.
 (pdftex.def)             Requested size: 256.0748pt x 281.40897pt.
-<Figures/process 2.PNG, id=1145, 765.86125pt x 461.725pt>
+<Figures/process 2.PNG, id=1171, 765.86125pt x 461.725pt>
 File: Figures/process 2.PNG Graphic file (type png)
 <use Figures/process 2.PNG>
 Package pdftex.def Info: Figures/process 2.PNG  used on input line 522.
 (pdftex.def)             Requested size: 483.69684pt x 291.61395pt.
  [81 <./Figures/manage page.PNG>] [82 <./Figures/process 1.PNG> <./Figures/process 2.PNG>]
-<Figures/menu item.PNG, id=1157, 488.32437pt x 315.67938pt>
+<Figures/menu item.PNG, id=1184, 488.32437pt x 315.67938pt>
 File: Figures/menu item.PNG Graphic file (type png)
 <use Figures/menu item.PNG>
 Package pdftex.def Info: Figures/menu item.PNG  used on input line 536.
 (pdftex.def)             Requested size: 341.43306pt x 220.72357pt.
-<Figures/permission.PNG, id=1158, 914.91812pt x 418.56375pt>
+<Figures/permission.PNG, id=1185, 914.91812pt x 418.56375pt>
 File: Figures/permission.PNG Graphic file (type png)
 <use Figures/permission.PNG>
 Package pdftex.def Info: Figures/permission.PNG  used on input line 552.
 (pdftex.def)             Requested size: 483.69684pt x 221.28207pt.
  [83 <./Figures/menu item.PNG>] [84 <./Figures/permission.PNG>]) [85] (Chapters/Conclusion.tex [86
 
-]) (Endmatter/Glossary.tex [87]
-Appendix A.
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-) [88
-
-] (Endmatter/Acronyms.tex
-Appendix B.
-[89
-
-]) [90
+]) [87] [88
 
 ] (main.aux (Frontmatter/Page_de_garde.aux))
  ***********
@@ -2199,6 +2196,8 @@ Frontmatter/Résumé.tex
 Frontmatter/Abstract.tex
 Frontmatter/Molakhas.tex
    uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+Endmatter/Glossary.tex
+Endmatter/Acronyms.tex
 Chapters/Introduction.tex
   ts1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
 Chapters/Chapter1.tex
@@ -2286,8 +2285,6 @@ Figures/process 2.PNG
 Figures/menu item.PNG
 Figures/permission.PNG
 Chapters/Conclusion.tex
-Endmatter/Glossary.tex
-Endmatter/Acronyms.tex
  ***********
 
 
@@ -2297,24 +2294,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF5C4447D9B36E66C92A59B9D226265E;14867.
+(rerunfilecheck)             Checksum: 81AC0FA4ABEE3724496E665D4C7108E6;14879.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41161 strings out of 474486
- 761167 string characters out of 5753571
+ 41176 strings out of 474486
+ 761294 string characters out of 5753571
  1965542 words of memory out of 5000000
- 62330 multiletter control sequences out of 15000+600000
+ 62338 multiletter control sequences out of 15000+600000
  614692 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,12n,96p,2383b,2848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,12n,96p,2383b,2860s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\anass\AppData\Local\MiKTeX\fonts/pk/ljfour/public/arabtex/dpi720\xnsh14bf.pk> <C:\Users\anass\AppData\Local\MiKTeX\fonts/pk/ljfour/public/arabtex/dpi720\xnsh14.pk> <C:\Users\anass\AppData\Local\MiKTeX\fonts/pk/ljfour/public/arabtex/dpi1493\xnsh14.pk> <C:\Users\anass\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (104 pages, 8103341 bytes).
+Output written on main.pdf (104 pages, 8107787 bytes).
 PDF statistics:
- 1518 PDF objects out of 1728 (max. 8388607)
- 304 named destinations out of 1000 (max. 500000)
+ 1543 PDF objects out of 1728 (max. 8388607)
+ 311 named destinations out of 1000 (max. 500000)
  1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -45,27 +45,27 @@
 
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
-    \definecolor{codegray}{rgb}{0.5,0.5,0.5}
-    \definecolor{codepurple}{rgb}{0.58,0,0.82}
-    \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-    
-    \lstdefinestyle{mystyle}{
-        backgroundcolor=\color{backcolour},   
-        keywordstyle=\color{magenta},
-        numberstyle=\tiny\color{codegreen},
-        stringstyle=\color{codepurple},
-        basicstyle=\ttfamily\footnotesize,
-        breakatwhitespace=false,         
-        breaklines=true,                 
-        captionpos=b,                    
-        keepspaces=true,                 
-        numbers=left,                    
-        numbersep=5pt,                  
-        showspaces=false,                
-        showstringspaces=false,
-        showtabs=false,                  
-        tabsize=2
-    }
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegreen},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
 
 
 
@@ -106,16 +106,22 @@
 
 
 \listoffigures
-\addcontentsline{toc}{chapter}{Liste des Figures} 
+\addcontentsline{toc}{chapter}{Liste des Figures}
 %figures are added automatically here
 
 \listoftables
-\addcontentsline{toc}{chapter}{Liste des Tables} 
+\addcontentsline{toc}{chapter}{Liste des Tables}
 %tables are added automatically here
 
 % \lstlistoflistings
 % \addcontentsline{toc}{chapter}{List of Listings} 
 % %Code snippets are added automatically here
+
+
+\input{Endmatter/Glossary}
+
+\input{Endmatter/Acronyms}
+
 
 \tableofcontents
 \addcontentsline{toc}{chapter}{Table des matières}
@@ -148,24 +154,50 @@
 \appendix
 
 
-\input{Endmatter/Glossary}
-
-\input{Endmatter/Acronyms}
 
 % \input{Endmatter/ComplementaryCodes}
 
 \begin{thebibliography}{99}
-\addcontentsline{toc}{chapter}{Bibliography}
+    \addcontentsline{toc}{chapter}{Bibliographie}
 
 
-\bibitem{ref1}
-Author name, Book name.
+    \bibitem{ref1}
+    \emph{Site web B3G} :
+    \href{https://b3gtech.com/}{\textbf{www.b3gtech.com}}
 
-\bibitem{ref2}
-\emph{Title 1},
-\href{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}{\textbf{Title 2}}
+    \bibitem{ref2}
+    \emph{Page des produits et solutions B3G} :
+    \href{https://b3gtech.com/fawri-suite/}{\textbf{Fawri Suite}}
 
- %the link is a documentation of the basic bibliography method (that    I'm using here) + bibTex which is more advanced, read it well and decide which one works best for you.
+    %the link is a documentation of the basic bibliography method (that    I'm using here) + bibTex which is more advanced, read it well and decide which one works best for you.
+
+    \bibitem{ref3}
+    \emph{WordPress} :
+    \href{https://wordpress.com/fr/}{\textbf{Site web WordPress}}
+
+    \bibitem{ref4}
+    \emph{Drupal} :
+    \href{https://www.drupal.org/}{\textbf{Site web Drupal}}
+
+    \bibitem{ref5}
+    \emph{Joomla} :
+    \href{https://www.joomla.fr/}{\textbf{Site web Joomla}}
+
+    \bibitem{ref6}
+    \emph{SiteCore} :
+    \href{https://www.sitecore.com/}{\textbf{Site web SiteCore}}
+
+    \bibitem{ref7}
+    \emph{ABP} :
+    \href{https://abp.io/}{\textbf{Site web ABP framework}}
+
+    \bibitem{ref8}
+    \emph{Form.io Form Builder} :
+    \href{https://form.io/}{\textbf{Form.io}}
+
+    \bibitem{ref9}
+    \emph{DDD Layers \& Clean Architecture} :
+    \href{https://docs.abp.io/en/abp/4.2/Domain-Driven-Design-Implementation-Guide}{\textbf{Implementation DDD avec ABP framework}}
 
 
 

@@ -6,8 +6,10 @@
 \contentsline {chapter}{Résumé en Arabe}{v}{chapter*.5}%
 \contentsline {chapter}{Liste des Figures}{viii}{chapter*.6}%
 \contentsline {chapter}{Liste des Tables}{ix}{chapter*.7}%
-\contentsline {chapter}{Table des matières}{xii}{chapter*.8}%
-\contentsline {chapter}{Introduction générale }{1}{chapter*.9}%
+\contentsline {chapter}{Glossaire}{x}{chapter*.8}%
+\contentsline {chapter}{Acronymes}{xi}{chapter*.9}%
+\contentsline {chapter}{Table des matières}{xiv}{chapter*.10}%
+\contentsline {chapter}{Introduction générale }{1}{chapter*.11}%
 \contentsline {chapter}{\numberline {1}Présentation générale}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de l'entreprise}{4}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}B3G Tech}{4}{subsection.1.1.1}%
@@ -19,13 +21,13 @@
 \contentsline {subsection}{\numberline {1.2.2}Technologie Low-Code}{7}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Content Management System (CMS)}{13}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Présentation de Fawri-Flow}{16}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}Problématique }{18}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Problématique }{17}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectifs du Projet et Solutions Proposées}{18}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Gestion du projet}{19}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Approche Scrum}{19}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Outils de collaboration}{21}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Gestion des versions}{22}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Planning du projet}{23}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.2}Outils de collaboration}{20}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Gestion des versions}{21}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Planning du projet}{22}{subsection.1.5.4}%
 \contentsline {chapter}{\numberline {2}Analyse et Conception}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Analyse des besoins}{26}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Identification des acteurs}{26}{subsection.2.1.1}%
@@ -52,13 +54,13 @@
 \contentsline {section}{\numberline {3.4}Outils et logiciels}{50}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Environnement de Test}{52}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Méthodologie}{53}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Test Driven Development}{54}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Domain-Driven Design (DDD)}{55}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.1}Test Driven Development}{53}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Domain-Driven Design (DDD)}{54}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}Développement basé sur le tronc (Trunk-Based Development)}{57}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}Multitenancy : Une Architecture Efficace et Évolutive pour les Applications SaaS}{58}{subsection.3.6.4}%
 \contentsline {section}{\numberline {3.7}Architecture de la solution}{59}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}Architecture de la solution Fawri-CMS suivant le DDD}{59}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Architecture technique suivant le Template d’ABP}{61}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.2}Architecture technique suivant le Template d’ABP}{60}{subsection.3.7.2}%
 \contentsline {chapter}{\numberline {4}Implémentation et Réalisation}{65}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Mise en place de l'environnement de développement}{66}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Couche de domaine (Domain Layer)}{66}{section.4.2}%
@@ -71,7 +73,5 @@
 \contentsline {subsection}{\numberline {4.8.1}Authentification de l’application :}{76}{subsection.4.8.1}%
 \contentsline {subsection}{\numberline {4.8.2}Interface Super Admin}{77}{subsection.4.8.2}%
 \contentsline {subsection}{\numberline {4.8.3}Interface Tenant}{79}{subsection.4.8.3}%
-\contentsline {chapter}{Conclusion générale }{86}{chapter*.100}%
-\contentsline {chapter}{\numberline {A}Glossaire}{88}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Acronyms}{89}{appendix.B}%
-\contentsline {chapter}{Bibliography}{90}{appendix*.101}%
+\contentsline {chapter}{Conclusion générale }{86}{chapter*.102}%
+\contentsline {chapter}{Bibliographie}{88}{appendix*.103}%
