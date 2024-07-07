@@ -22,10 +22,10 @@
   \captionsetup{justification=centering}
   \begin{tabular}{|p{0.2\textwidth}|p{0.2\textwidth}|p{0.5\textwidth}|}
     \hline
-    \textbf{Acteur}       & \textbf{Role}                                & \textbf{Responsabilités}                                                                                                                                                                                                \\ \hline
-    \textbf{Super Admin}  & Gestion complète du système                  & Personnel de B3G ayant des privilèges étendus pour gérer les tenants et éditions, les projets (menus et pages), la gestion de contenu (widgets et processus), ainsi que la gestion des utilisateurs et les permissions. \\ \hline
-    \textbf{Tenant Admin} & Administration d'un tenant spécifique        & Clients de B3G ayant des privilèges administratifs pour gérer les projets, la gestion de contenu, les utilisateurs et les autorisations au sein de leur propre espace de travail (tenant).                              \\ \hline
-    \textbf{End User}     & Consultation des projets/applications créés. & Personne ou entité qui utilise les plateformes créées par un tenant pour accéder aux fonctionnalités, contenus et services proposés.                                                                                    \\ \hline
+    \textbf{Acteur}            & \textbf{Rôle}                                & \textbf{Responsabilités}                                                                                                                                                                                                \\ \hline
+    \textbf{Super Admin}       & Gestion complète du système                  & Personnel de B3G ayant des privilèges étendus pour gérer les tenants et éditions, les projets (menus et pages), la gestion de contenu (widgets et processus), ainsi que la gestion des utilisateurs et les permissions. \\ \hline
+    \textbf{Tenant Admin}      & Administration d'un tenant spécifique        & Clients de B3G ayant des privilèges administratifs pour gérer les projets, la gestion de contenu, les utilisateurs et les autorisations au sein de leur propre espace de travail (tenant).                              \\ \hline
+    \textbf{Utilisateur final} & Consultation des projets/applications créés. & Personne ou entité qui utilise les plateformes créées par un tenant pour accéder aux fonctionnalités, contenus et services proposés.                                                                                    \\ \hline
   \end{tabular}
   \caption{Liste des acteurs}
   \label{tab:actors}
@@ -134,7 +134,7 @@
 
 
 
-\subsection{Diagramme de cas d’utilisation : Gestion des projets}
+\subsection{Diagramme de cas d'utilisation : Gestion des projets}
 
 \hspace{\parindent}Ce diagramme détaille les cas d'utilisation pour la gestion des projets, incluant la gestion des pages et des menus. Il précise les fonctionnalités et les cas d'utilisation ainsi que les interactions avec les différents acteurs.
 
@@ -173,7 +173,7 @@ Le diagramme suivant représente les cas d'utilisation pour la gestion des tenan
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=17cm]{Figures/Gestion des tenants éditions et permissions .png}
+  \includegraphics[width=17cm]{Figures/Gestion des tenants éditions et permissions.png}
   \caption{Diagramme de cas d'utilisation : gestion des tenants, éditions et permissions}
   %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
@@ -218,9 +218,9 @@ Le diagramme suivant représente la structure des classes dans notre système Fa
 
 \textbf{Edition} : Gère les éditions du système, qui sont des versions personnalisées adaptées à des besoins spécifiques des clients.
 
-\textbf{Conten} : Gère le contenu au sein des tenants, permettant la création et l'organisation du contenu.
+\textbf{Content} : Gère le contenu au sein des tenants, permettant la création et l'organisation du contenu.
 
-\textbf{ContentTy} : Définit les types de contenu pouvant être créés et gérés dans le système.
+\textbf{ContentType} : Définit les types de contenu pouvant être créés et gérés dans le système.
 
 \textbf{Widget} : Gère les widgets, qui sont des composants réutilisables dans les pages et projets.
 
@@ -230,74 +230,93 @@ Le diagramme suivant représente la structure des classes dans notre système Fa
 
 
 
-\subsection{Diagramme de séquence}
+\subsection{Diagrammes de séquence}
+
+\begin{enumerate}
+
+  \item Récupération de la liste des processus
+
+        Le diagramme de séquence ci-dessous illustre le processus par lequel le tenant admin ou le super admin interagit avec Fawri-CMS pour récupérer la liste des processus disponibles depuis l'API Fawri-Flow. Ce diagramme décrit les échanges entre les différents acteurs et systèmes impliqués dans cette opération.
+
+        % \textbf{-------insert Diagramme de séquence : Récupération de la liste des processus-------}
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=11cm]{Figures/Diagramme_sequence _Recuperation_list_proc.png}
+          \caption{Diagramme de séquence  Récupération de la liste des processus}
+          %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+        \end{figure}
 
 
-\subsubsection{Diagramme de séquence : Récupération de la liste des processus}
-
-\hspace{\parindent}Le diagramme de séquence ci-dessous illustre le processus par lequel le tenant admin ou le super admin interagit avec Fawri-CMS pour récupérer la liste des processus disponibles depuis l'API Fawri-Flow. Ce diagramme décrit les échanges entre les différents acteurs et systèmes impliqués dans cette opération.
-\\
-% \textbf{-------insert Diagramme de séquence : Récupération de la liste des processus-------}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=11cm]{Figures/Diagramme_sequence _Recuperation_list_proc.png}
-  \caption{Diagramme de séquence  Récupération de la liste des processus}
-  %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
-\end{figure}
-
-
-\subsubsection{Diagramme de séquence : Gestion des projets}
-\hspace{\parindent}Le diagramme de séquence ci-dessous montre le processus de gestion des projets au sein de Fawri-CMS. Il décrit les interactions entre le tenant admin/super admin, Fawri-CMS, et la base de données (DB) lors de la création et de la gestion des projets, les pages associées et les éléments de menu.
-\\
-\\
-\textbf{-------insert Diagramme de séquence : Gestion des projets-------}
-\\
-\\
-
-
-
-
-\subsubsection{Diagramme de séquence : Gestion des permissions}
-\hspace{\parindent}Le diagramme de séquence ci-dessous illustre le processus de gestion des permissions dans Fawri-CMS. Il décrit les interactions entre le super admin/tenant admin, Fawri-CMS, et la base de données (DB) lors de la création de rôles, la gestion des permissions, la définition des autorisations, et l'ajout d'utilisateurs aux rôles.
-\\
-\\
-\textbf{-------insert Diagramme de séquence : Gestion des permissions-------}
-\\
-\\
-
-
-
-\subsubsection{Diagramme de séquence : Gestion des éditions et des tenants}
-
-\hspace{\parindent}Ce diagramme de séquence illustre le processus de gestion des éditions et des tenants dans Fawri-CMS. Il décompose les interactions entre le super administrateur, Fawri-CMS et la base de données (DB) en étapes claires et concises, couvrant les actions de création d'éditions, de gestion des tenants.
-\\
-\\
-\textbf{-------insert Diagramme de séquence : Gestion des éditions et des tenants-------}
-\\
-\\
-
-
-\subsubsection{Diagramme d'activité : Gestion des éditions, des tenants et des projets}
-\hspace{\parindent}Le diagramme d'activité ci-dessous illustre le processus de gestion des éditions, des tenants et des projets au sein de Fawri-CMS.
-\\
-\\
-\textbf{-------insert Diagramme-------}
-\\
-\\
+  \item Gestion des projets\\
+        Le diagramme de séquence ci-dessous montre le processus de gestion des projets au sein de Fawri-CMS. Il décrit les interactions entre le tenant admin/super admin, Fawri-CMS, et la base de données (DB) lors de la création et de la gestion des projets, les pages associées et les éléments de menu.
+        % \\
+        % \\
+        % \textbf{-------insert Diagramme de séquence : Gestion des projets-------}
+        % \\
+        % \\
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=11cm]{Figures/diagsec_Gestion_projets.png}
+          \caption{Diagramme de séquence : gestion des projets}
+          %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+        \end{figure}
 
 
 
 
-\subsubsection{Diagramme d'activité : Gestion des Permissions}
-\hspace{\parindent}Le diagramme d'activité ci-dessous illustre le processus de gestion des permissions au sein de Fawri-CMS. Il décrit les étapes et les décisions prises par le super admin/tenant admin pour créer, modifier et gérer les permissions des utilisateurs, des rôles, et les autorisations associées.
-\\
-\\
-\textbf{-------insert Diagramme-------}
-\\
-\\
+  \item Gestion des permissions\\
+        \hspace{\parindent}Le diagramme de séquence ci-dessous illustre le processus de gestion des permissions dans Fawri-CMS. Il décrit les interactions entre le super admin/tenant admin, Fawri-CMS, et la base de données (DB) lors de la création de rôles, la gestion des permissions, la définition des autorisations, et l'ajout d'utilisateurs aux rôles.
+        % \\
+        % \\
+        % \textbf{-------insert Diagramme de séquence : Gestion des permissions-------}
+        % \\
+        % \\
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=11cm]{Figures/diagsec_Gestion_permissions.png}
+          \caption{Diagramme de séquence : gestion des permissions}
+          %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+        \end{figure}
 
 
+
+  \item Gestion des éditions et des tenants
+
+        \hspace{\parindent}Ce diagramme de séquence illustre le processus de gestion des éditions et des tenants dans Fawri-CMS. Il décompose les interactions entre le super administrateur, Fawri-CMS et la base de données (DB) en étapes claires et concises, couvrant les actions de création d'éditions, de gestion des tenants.
+        % \\
+        % \\
+        % \textbf{-------insert Diagramme de séquence : Gestion des éditions et des tenants-------}
+        % \\
+        % \\
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=11cm]{Figures/diagsec_Gestion_editions_tenants.png}
+          \caption{Diagramme de séquence : gestion des éditions et des tenants}
+          %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+        \end{figure}
+
+        % \item Gestion des éditions, des tenants et des projets
+        Le diagramme d'activité ci-dessous illustre le processus de gestion des éditions, des tenants et des projets au sein de Fawri-CMS.
+        % \\
+        % \\
+        % \textbf{-------insert Diagramme-------}
+        % \\
+        % \\
+
+
+
+
+        % \item Diagramme d'activité : Gestion des Permissions
+        %       \hspace{\parindent}Le diagramme d'activité ci-dessous illustre le processus de gestion des permissions au sein de Fawri-CMS. Il décrit les étapes et les décisions prises par le super admin/tenant admin pour créer, modifier et gérer les permissions des utilisateurs, des rôles, et les autorisations associées.
+        %       \\
+        %       \\
+        %       \textbf{-------insert Diagramme-------}
+        %       \\
+        %       \\
+
+\end{enumerate}
 
 
 

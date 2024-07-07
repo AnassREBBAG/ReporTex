@@ -703,13 +703,13 @@ INPUT .\Figures\processmanagement.png
 INPUT .\Figures\processmanagement.png
 INPUT .\Figures\processmanagement.png
 INPUT .\Figures\processmanagement.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
-INPUT .\Figures\scrum.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
+INPUT .\Figures\scrumm.png
 INPUT .\Figures\Microsoft_Teams.png
 INPUT .\Figures\Microsoft_Teams.png
 INPUT .\Figures\Microsoft_Teams.png
@@ -765,13 +765,13 @@ INPUT .\Figures\gestion de contenu.png
 INPUT .\Figures\gestion de contenu.png
 INPUT .\Figures\gestion de contenu.png
 INPUT .\Figures\gestion de contenu.png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
-INPUT .\Figures\Gestion des tenants éditions et permissions .png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
+INPUT .\Figures\Gestion des tenants éditions et permissions.png
 INPUT .\Figures\diag de classe.png
 INPUT .\Figures\diag de classe.png
 INPUT .\Figures\diag de classe.png
@@ -786,6 +786,27 @@ INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
 INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
 INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
 INPUT .\Figures\Diagramme_sequence _Recuperation_list_proc.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_projets.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_permissions.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
+INPUT .\Figures\diagsec_Gestion_editions_tenants.png
 INPUT .\Figures\fawri_cms_logo.PNG
 INPUT .\Figures\fawri_cms_logo.PNG
 INPUT .\Figures\fawri_cms_logo.PNG
@@ -819,6 +840,20 @@ INPUT .\Chapters\Chapter3.tex
 INPUT .\Chapters\Chapter3.tex
 INPUT .\Chapters\Chapter3.tex
 INPUT Chapters\Chapter3.tex
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\UML_logo.svg.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
+INPUT .\Figures\figma logo.png
 INPUT .\Figures\csharp.png
 INPUT .\Figures\csharp.png
 INPUT .\Figures\csharp.png
@@ -931,20 +966,6 @@ INPUT .\Figures\swaggerlogo.png
 INPUT .\Figures\swaggerlogo.png
 INPUT .\Figures\swaggerlogo.png
 INPUT .\Figures\swaggerlogo.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\UML_logo.svg.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
-INPUT .\Figures\figma logo.png
 INPUT .\Figures\TDD.png
 INPUT .\Figures\TDD.png
 INPUT .\Figures\TDD.png
@@ -1027,13 +1048,6 @@ INPUT .\Chapters\Chapter4.tex
 INPUT .\Chapters\Chapter4.tex
 INPUT .\Chapters\Chapter4.tex
 INPUT Chapters\Chapter4.tex
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
-INPUT .\Figures\abp cli.PNG
 INPUT .\Figures\domain folder.PNG
 INPUT .\Figures\domain folder.PNG
 INPUT .\Figures\domain folder.PNG

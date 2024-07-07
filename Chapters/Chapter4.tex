@@ -14,24 +14,24 @@ Dans ce chapitre, nous nous présentons les étapes du développement de l'appli
 
 \section{Mise en place de l'environnement de développement}
 
-\hspace{\parindent}Pour commencer le développement de l'application, nous avons initié la configuration de notre environnement de développement en installant une gamme d'outils et de frameworks essentiels tels que Visual Studio, .NET, ABP CLI, entre autres. En parallèle, nous avons également configuré la base de données et établi les connexions nécessaires pour assurer le bon fonctionnement de l'application. La Figure suivante présente l'installation de l'ABP CLI.
+\hspace{\parindent}Pour commencer le développement de l'application, nous avons initié la configuration de notre environnement de développement en installant une gamme d'outils et de frameworks essentiels tels que Visual Studio, .NET, ABP CLI, entre autres. En parallèle, nous avons également configuré la base de données et établi les connexions nécessaires pour assurer le bon fonctionnement de l'application.
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/abp cli.PNG}
-        \caption{ABP CLI}
-    %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
-\end{figure}
+% \begin{figure}[H] 
+%     \centering
+%     \includegraphics[width=17cm]{Figures/abp cli.PNG}
+%         \caption{ABP CLI}
+%     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+% \end{figure}
 
 \section{Couche de domaine (Domain Layer)}
 
 Nous avons créé les entités décrites précédemment dans le projet \textbf{B3G.Fawri.CMS.Domain}.
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/domain folder.PNG}
-        \caption{Structure du dossier Domain}
+    \caption{Structure du dossier Domain}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
@@ -42,59 +42,59 @@ Dans cette couche, nous avons commencé par l'implémentation du contexte de bas
 Voici les configurations des builders pour les entités précédemment créées, réalisées dans le projet \textbf{B3G.Fawri.CMS.EntityFrameworkCore}.
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/entity fram core folder.PNG}
-        \caption{Structure du dossier Infrastructure}
+    \caption{Structure du dossier Infrastructure}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=17cm]{Figures/db set code.PNG}
-        \caption{Configuration des DbSet}
+    \caption{Configuration des DbSet}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
 \section{Couche d'application (Application Layer)}
 
 Dans cette couche, nous créons les DTOs (Data Transfer Objects) et les interfaces de nos services dans le projet \textbf{B3G.Fawri.CMS.Application.Contracts} . Les DTOs servent de modèles pour transférer les données entre les couches de l'application, facilitant ainsi la communication sans exposer les entités du domaine directement.
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/dtos.PNG}
-        \caption{Les DTOs dans la couche Application}
+    \caption{Les DTOs dans la couche Application}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
 Ensuite, nous procédons à l'implémentation des services dans le projet \textbf{B3G.Fawri.CMS.Application}. Cette étape consiste à définir la logique métier spécifique aux cas d'utilisation de l'application, en respectant les contrats définis par les interfaces précédemment créées. L'implémentation des services inclut la gestion des opérations CRUD (Create, Read, Update, Delete), ainsi que toute autre logique métier nécessaire pour répondre aux exigences fonctionnelles de l'application.
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/services impl.PNG}
-        \caption{Implementation des services}
+    \caption{Implementation des services}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
 
-Les Webservices implémentés sont : 
+Les Webservices implémentés sont :
 
 
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
         \hline
-          \textbf{Service} & \textbf{Description} \\
+        \textbf{Service} & \textbf{Description}                            \\
         \hline
-          CreateProject & Ce WS permet de créer un projet \\
+        CreateProject    & Ce WS permet de créer un projet                 \\
         \hline
-          DeleteProject & Ce WS permet de supprimer un projet \\
+        DeleteProject    & Ce WS permet de supprimer un projet             \\
         \hline
-          ListProjects & Ce WS permet de récupérer la liste des projets \\
+        ListProjects     & Ce WS permet de récupérer la liste des projets  \\
         \hline
-        GetProjectById & Ce WS permet de récupérer un projet par son Id.\\
-        \hline 
-        UpdateProject & Ce WS permet de mettre à jour un projet.\\
+        GetProjectById   & Ce WS permet de récupérer un projet par son Id. \\
+        \hline
+        UpdateProject    & Ce WS permet de mettre à jour un projet.        \\
         \hline
     \end{tabular}
     \caption{Les Web services de \textit{Project}}
@@ -105,26 +105,25 @@ Les Webservices implémentés sont :
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-      \hline
-          \textbf{Service} & \textbf{Description} \\
-    \hline
-      CreatePage   & Ce WS permet de créer une page\\
-      \hline
-      DeletePage & Ce WS permet de supprimer une page.\\
-      \hline
-      ListPages & Ce WS permet de récupérer la liste des pages.\\
-      \hline
-GetPageById & Ce WS permet de récupérer une page par son Id.\\
-\hline
-UpdatePage & Ce WS permet de mettre à jour une page.\\
-\hline
-UpdatePageJson & Ce WS permet de mettre à jour une page en utilisant du JSON.\\
-\hline
-GetPagebySlug & Ce WS permet de récupérer une page par son slug.\\
-\hline
-GetSlugByPageId & Ce WS permet de récupérer le slug d'une page par son Id.\\
-\hline
-      
+        \hline
+        \textbf{Service} & \textbf{Description}                                         \\
+        \hline
+        CreatePage       & Ce WS permet de créer une page                               \\
+        \hline
+        DeletePage       & Ce WS permet de supprimer une page.                          \\
+        \hline
+        ListPages        & Ce WS permet de récupérer la liste des pages.                \\
+        \hline
+        GetPageById      & Ce WS permet de récupérer une page par son Id.               \\
+        \hline
+        UpdatePage       & Ce WS permet de mettre à jour une page.                      \\
+        \hline
+        UpdatePageJson   & Ce WS permet de mettre à jour une page en utilisant du JSON. \\
+        \hline
+        GetPagebySlug    & Ce WS permet de récupérer une page par son slug.             \\
+        \hline
+        GetSlugByPageId  & Ce WS permet de récupérer le slug d'une page par son Id.     \\
+        \hline
     \end{tabular}
     \caption{Les Web services de \textit{Page}}
     \label{tab:my_label}
@@ -137,19 +136,19 @@ GetSlugByPageId & Ce WS permet de récupérer le slug d'une page par son Id.\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-     CreateMenuItem & Ce WS permet de créer un élément de menu.\\
-    \hline
-    DeleteMenuItem & Ce WS permet de supprimer un élément de menu.\\
-    \hline
-    ListMenuItems & Ce WS permet de récupérer la liste des éléments de menu.\\
-    \hline
-    GetMenuItemById & Ce WS permet de récupérer un élément de menu par son Id.\\
-    \hline
-    UpdateMenuItem & Ce WS permet de mettre à jour un élément de menu.\\
-    \hline
+        \hline
+        \textbf{Service} & \textbf{Description}                                     \\
+        \hline
+        CreateMenuItem   & Ce WS permet de créer un élément de menu.                \\
+        \hline
+        DeleteMenuItem   & Ce WS permet de supprimer un élément de menu.            \\
+        \hline
+        ListMenuItems    & Ce WS permet de récupérer la liste des éléments de menu. \\
+        \hline
+        GetMenuItemById  & Ce WS permet de récupérer un élément de menu par son Id. \\
+        \hline
+        UpdateMenuItem   & Ce WS permet de mettre à jour un élément de menu.        \\
+        \hline
     \end{tabular}
     \caption{Les Web services de MenuItem}
     \label{tab:my_label}
@@ -164,20 +163,20 @@ GetSlugByPageId & Ce WS permet de récupérer le slug d'une page par son Id.\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-    CreateContentType & Ce WS permet de créer un type de contenu.\\
-\hline
-DeleteContentType & Ce WS permet de supprimer un type de contenu.\\
-\hline
-ListContentTypes & Ce WS permet de récupérer la liste des types de contenu.\\
-\hline
-GetContentTypeById & Ce WS permet de récupérer un type de contenu par son Id.\\
-\hline
+        \hline
+        \textbf{Service}   & \textbf{Description}                                     \\
+        \hline
+        CreateContentType  & Ce WS permet de créer un type de contenu.                \\
+        \hline
+        DeleteContentType  & Ce WS permet de supprimer un type de contenu.            \\
+        \hline
+        ListContentTypes   & Ce WS permet de récupérer la liste des types de contenu. \\
+        \hline
+        GetContentTypeById & Ce WS permet de récupérer un type de contenu par son Id. \\
+        \hline
 
-UpdateContentType & Ce WS permet de mettre à jour un type de contenu\\
-\hline
+        UpdateContentType  & Ce WS permet de mettre à jour un type de contenu         \\
+        \hline
     \end{tabular}
     \caption{Les Web services de ContentType}
     \label{tab:my_label}
@@ -191,19 +190,19 @@ UpdateContentType & Ce WS permet de mettre à jour un type de contenu\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-    CreateContentCategory & Ce WS permet de créer une catégorie de contenu. \\
-    \hline
-    DeleteContentCategory & Ce WS permet de supprimer une catégorie de contenu.\\
-    \hline
-    ListContentCategories & Ce WS permet de récupérer la liste des catégories de contenu\\
-    \hline
-    GetContentCategoryById & Ce WS permet de récupérer une catégorie de contenu par son Id.\\
-    \hline
-    UpdateContentCategory & Ce WS permet de mettre à jour une catégorie de contenu.\\
-    \hline
+        \hline
+        \textbf{Service}       & \textbf{Description}                                           \\
+        \hline
+        CreateContentCategory  & Ce WS permet de créer une catégorie de contenu.                \\
+        \hline
+        DeleteContentCategory  & Ce WS permet de supprimer une catégorie de contenu.            \\
+        \hline
+        ListContentCategories  & Ce WS permet de récupérer la liste des catégories de contenu   \\
+        \hline
+        GetContentCategoryById & Ce WS permet de récupérer une catégorie de contenu par son Id. \\
+        \hline
+        UpdateContentCategory  & Ce WS permet de mettre à jour une catégorie de contenu.        \\
+        \hline
     \end{tabular}
     \caption{Les Web services de ContentCategory}
     \label{tab:my_label}
@@ -215,23 +214,23 @@ UpdateContentType & Ce WS permet de mettre à jour un type de contenu\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-    CreateWidget & Ce WS permet de créer un widget \\
-    \hline
-    DeleteWidget & Ce WS permet de supprimer un widget.\\
-    \hline
+        \hline
+        \textbf{Service} & \textbf{Description}                            \\
+        \hline
+        CreateWidget     & Ce WS permet de créer un widget                 \\
+        \hline
+        DeleteWidget     & Ce WS permet de supprimer un widget.            \\
+        \hline
 
-ListWidgets & Ce WS permet de récupérer la liste des widgets.\\
-\hline
+        ListWidgets      & Ce WS permet de récupérer la liste des widgets. \\
+        \hline
 
-GetWidgetById & Ce WS permet de récupérer un widget par son Id.\\
-\hline
+        GetWidgetById    & Ce WS permet de récupérer un widget par son Id. \\
+        \hline
 
-UpdateWidget & Ce WS permet de mettre à jour un widget.\\
+        UpdateWidget     & Ce WS permet de mettre à jour un widget.        \\
 
-    \hline
+        \hline
     \end{tabular}
     \caption{Les Web services de Widget}
     \label{tab:my_label}
@@ -253,23 +252,23 @@ UpdateWidget & Ce WS permet de mettre à jour un widget.\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-    CreateProcess & Ce WS permet de créer un processus. \\
-    \hline
-    DeleteProcess & Ce WS permet de supprimer un processus.\\
-    \hline
+        \hline
+        \textbf{Service} & \textbf{Description}                               \\
+        \hline
+        CreateProcess    & Ce WS permet de créer un processus.                \\
+        \hline
+        DeleteProcess    & Ce WS permet de supprimer un processus.            \\
+        \hline
 
-ListProcesses & Ce WS permet de récupérer la liste des processus.\\
-\hline
+        ListProcesses    & Ce WS permet de récupérer la liste des processus.  \\
+        \hline
 
-GetProcessById & Ce WS permet de récupérer un processus par son Id.\\
-\hline
+        GetProcessById   & Ce WS permet de récupérer un processus par son Id. \\
+        \hline
 
-UpdateProcess & Ce WS permet de mettre à jour un processus.\\
+        UpdateProcess    & Ce WS permet de mettre à jour un processus.        \\
 
-    \hline
+        \hline
     \end{tabular}
     \caption{Les Web services de Process}
     \label{tab:my_label}
@@ -283,24 +282,24 @@ UpdateProcess & Ce WS permet de mettre à jour un processus.\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|m{5cm}|m{10cm}|}
-    \hline
-    \textbf{Service} & \textbf{Description} \\
-    \hline
-CreateItemView & Ce WS permet de créer une vue d'élément.\\
-\hline
+        \hline
+        \textbf{Service} & \textbf{Description}                                    \\
+        \hline
+        CreateItemView   & Ce WS permet de créer une vue d'élément.                \\
+        \hline
 
-DeleteItemView & Ce WS permet de supprimer une vue d'élément.\\
-\hline
+        DeleteItemView   & Ce WS permet de supprimer une vue d'élément.            \\
+        \hline
 
-ListItemViews & Ce WS permet de récupérer la liste des vues d'éléments.\\
-\hline
+        ListItemViews    & Ce WS permet de récupérer la liste des vues d'éléments. \\
+        \hline
 
-GetItemViewById & Ce WS permet de récupérer une vue d'élément par son Id.\\
-\hline
+        GetItemViewById  & Ce WS permet de récupérer une vue d'élément par son Id. \\
+        \hline
 
-UpdateItemView & Ce WS permet de mettre à jour une vue d'élément.\\
+        UpdateItemView   & Ce WS permet de mettre à jour une vue d'élément.        \\
 
-    \hline
+        \hline
     \end{tabular}
     \caption{Les Web services de ItemView}
     \label{tab:my_label}
@@ -313,10 +312,10 @@ Après avoir implémenté les web services, nous démarrons le projet \textbf{B3
 La figure suivante représente l’interface Swagger de notre solution :
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=18cm]{Figures/swagger apis.PNG}
-        \caption{Interface Swagger}
+    \caption{Interface Swagger}
     %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
 \end{figure}
 
@@ -327,7 +326,7 @@ La figure suivante représente l’interface Swagger de notre solution :
 
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/web folder.PNG}
     \caption{Structure du couche Web}
@@ -337,20 +336,20 @@ La figure suivante représente l’interface Swagger de notre solution :
 Cette couche inclut divers dossiers et fichiers essentiels :
 
 \begin{itemize}
-    
- \item \textbf{Components} : Contient les composants réutilisables utilisés dans différentes parties de l'application.
 
- \item \textbf{Controllers} : Gère les requêtes HTTP et les interactions entre la vue et les modèles.
+    \item \textbf{Components} : Contient les composants réutilisables utilisés dans différentes parties de l'application.
 
- \item \textbf{Menus} : Définit la structure de navigation de l'application.
+    \item \textbf{Controllers} : Gère les requêtes HTTP et les interactions entre la vue et les modèles.
 
- \item \textbf{Pages} : Contient les Razor Pages, qui sont les vues spécifiques de l'application.
+    \item \textbf{Menus} : Définit la structure de navigation de l'application.
 
- \item \textbf{TagHelpers} : Fournit des balises personnalisées pour simplifier la création de vues.
+    \item \textbf{Pages} : Contient les Razor Pages, qui sont les vues spécifiques de l'application.
 
- \item \textbf{Themes} : Gère les thèmes et les styles visuels de l'application.
+    \item \textbf{TagHelpers} : Fournit des balises personnalisées pour simplifier la création de vues.
 
- \item \textbf{Views} : Contient les vues MVC traditionnelles, si nécessaire.
+    \item \textbf{Themes} : Gère les thèmes et les styles visuels de l'application.
+
+    \item \textbf{Views} : Contient les vues MVC traditionnelles, si nécessaire.
 
 \end{itemize}
 
@@ -366,17 +365,17 @@ L'ABP Framework facilite l'intégration d'Identity Server en fournissant des fon
 \begin{itemize}
     \item \textbf{Configuration de Identity Server} : L'ABP Framework simplifie la configuration d'Identity Server en fournissant des modèles et des outils pour définir les ressources, les clients et les utilisateurs autorisés à accéder à l'application.
 
-\item \textbf{Gestion des utilisateurs et des rôles} : Grâce à ASP.NET Core Identity, qui est intégré à l'ABP Framework, la gestion des utilisateurs et des rôles est simplifiée. Identity Server utilise cette infrastructure pour authentifier les utilisateurs et leur attribuer les autorisations appropriées.
+    \item \textbf{Gestion des utilisateurs et des rôles} : Grâce à ASP.NET Core Identity, qui est intégré à l'ABP Framework, la gestion des utilisateurs et des rôles est simplifiée. Identity Server utilise cette infrastructure pour authentifier les utilisateurs et leur attribuer les autorisations appropriées.
 
-\item \textbf{Authentification basée sur les standards ouverts} : Identity Server prend en charge les protocoles d'authentification standard tels que OAuth 2.0 et OpenID Connect, assurant ainsi une authentification sécurisée et compatible avec les normes industrielles.
+    \item \textbf{Authentification basée sur les standards ouverts} : Identity Server prend en charge les protocoles d'authentification standard tels que OAuth 2.0 et OpenID Connect, assurant ainsi une authentification sécurisée et compatible avec les normes industrielles.
 
-\item \textbf{Centralisation de l'authentification et de l'autorisation} : En intégrant Identity Server, Fawri-CMS bénéficie d'une solution centralisée pour gérer l'authentification et l'autorisation des utilisateurs, ce qui simplifie le développement et la maintenance de l'application.
+    \item \textbf{Centralisation de l'authentification et de l'autorisation} : En intégrant Identity Server, Fawri-CMS bénéficie d'une solution centralisée pour gérer l'authentification et l'autorisation des utilisateurs, ce qui simplifie le développement et la maintenance de l'application.
 \end{itemize}
 
 Dans notre cas, nous avons choisi de séparer le serveur d'authentification en un projet distinct (\textbf{B3G.Fawri.CMS.AuthServer}) afin de pouvoir le personnaliser au fur et à mesure de l'avancement de ce projet.
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=9cm]{Figures/login ui.PNG}
     \caption{Interface de l'authentification}
@@ -390,7 +389,7 @@ Dans notre cas, nous avons choisi de séparer le serveur d'authentification en u
 Dans notre projet Fawri-CMS, nous avons implémenté la gestion des tenants en utilisant l'interface IMultiTenant fournie par l'ABP Framework. Chaque entité de notre application inclut un identifiant de tenant (TenantId), garantissant ainsi une isolation et une personnalisation des données pour chaque client (tenant).
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=13cm]{Figures/tenant code.PNG}
     \caption{Implementation de la \textit{multitenancy}}
@@ -409,7 +408,7 @@ Dans notre projet Fawri-CMS, nous avons implémenté la gestion des tenants en u
 \hspace{\parindent}Lorsqu'un utilisateur, tel que le super administrateur (personnel de B3G) ou l'administrateur d'un tenant, souhaite accéder à la plateforme Fawri-CMS, le système lui demande de s'authentifier en fonction de son profil. La figure ci-dessous illustre la page de connexion.
 
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=18cm]{Figures/full loging page.PNG}
     \caption{Page de l'authentification}
@@ -422,7 +421,7 @@ Dans notre projet Fawri-CMS, nous avons implémenté la gestion des tenants en u
 
 Dans cette partie, nous allons présenter les fonctionnalités que seul le Super Admin peut effectuer, telles que la création d'éditions et de tenants. Le schéma suivant représente l'acheminement que nous allons suivre pour présenter les interfaces du Super Admin.
 
-\begin{figure}[H] 
+\begin{figure}[H]
     \centering
     \includegraphics[width=11cm]{Figures/fonctionnalite super admin.PNG}
     \caption{Les fonctionnalités du super admin}
@@ -430,31 +429,31 @@ Dans cette partie, nous allons présenter les fonctionnalités que seul le Super
 
 \begin{enumerate}
     \item \textbf{Gestion des Éditions} :
-    Dans Fawri-CMS, la gestion des éditions est une fonctionnalité essentielle qui permet au Super Admin de configurer et de personnaliser les offres pour différents segments de clients. Les éditions permettent de définir des niveaux de service distincts, chacun avec ses propres fonctionnalités et configurations spécifiques.
+          Dans Fawri-CMS, la gestion des éditions est une fonctionnalité essentielle qui permet au Super Admin de configurer et de personnaliser les offres pour différents segments de clients. Les éditions permettent de définir des niveaux de service distincts, chacun avec ses propres fonctionnalités et configurations spécifiques.
 
-Le Super Admin a la responsabilité de créer, modifier et gérer les éditions. Ces éditions définissent les différentes versions de l'application qui peuvent être proposées à divers groupes de clients (tenants).
+          Le Super Admin a la responsabilité de créer, modifier et gérer les éditions. Ces éditions définissent les différentes versions de l'application qui peuvent être proposées à divers groupes de clients (tenants).
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/new edition.PNG}
-    \caption{Interface d'ajout d'une édition}
-\end{figure}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/new edition.PNG}
+              \caption{Interface d'ajout d'une édition}
+          \end{figure}
 
-\item \textbf{Gestion des tenants} : 
+    \item \textbf{Gestion des tenants} :
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/tenant screenshot.PNG}
-    \caption{Liste des tenants}
-\end{figure}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/tenant screenshot.PNG}
+              \caption{Liste des tenants}
+          \end{figure}
 
-\hspace{\parindent}Dans notre solution Fawri-CMS, le Super Admin a la possibilité de configurer la chaîne de connexion pour chaque nouveau tenant lors de sa création. Cette flexibilité permet de personnaliser la base de données utilisée par chaque tenant, garantissant une isolation appropriée des données et une gestion efficace des ressources. Le Super Admin peut également choisir d'utiliser la chaîne de connexion par défaut pour les nouveaux tenants si aucune personnalisation spécifique n'est nécessaire.
+          \hspace{\parindent}Dans notre solution Fawri-CMS, le Super Admin a la possibilité de configurer la chaîne de connexion pour chaque nouveau tenant lors de sa création. Cette flexibilité permet de personnaliser la base de données utilisée par chaque tenant, garantissant une isolation appropriée des données et une gestion efficace des ressources. Le Super Admin peut également choisir d'utiliser la chaîne de connexion par défaut pour les nouveaux tenants si aucune personnalisation spécifique n'est nécessaire.
 
 
 
-\item \textbf{Connexion en tant que tenant} :
+    \item \textbf{Connexion en tant que tenant} :
 
-Étant donné que le Super Admin a un contrôle total de l'application, il peut se connecter en tant que tenant. De plus, il a accès à toutes les fonctionnalités de l'application.
+          Étant donné que le Super Admin a un contrôle total de l'application, il peut se connecter en tant que tenant. De plus, il a accès à toutes les fonctionnalités de l'application.
 
 
 
@@ -476,83 +475,83 @@ Dans cette partie, nous allons présenter les fonctionnalités spécifiques au T
 
 \begin{enumerate}
     \item \textbf{Création d’un nouveau projet} :
-    
-
-
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=10cm]{Figures/new project.PNG}
-    \caption{Création d'un nouveau projet}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/list projects.PNG}
-    \caption{Consultation des projets}
-\end{figure}
 
 
 
-\item \textbf{Gestion des pages} :
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=10cm]{Figures/new project.PNG}
+              \caption{Création d'un nouveau projet}
+          \end{figure}
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/list pages.PNG}
-    \caption{Consultation des pages}
-\end{figure}
-
-
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/manage page.PNG}
-    \caption{Gestion des pages}
-\end{figure}
-
-
-En plus des composants de base de cet éditeur basé sur Form.io, nous avons ajouté un nouveau composant "Process" dans la section Premium (voir figure suivante). Ce composant nous permet d'utiliser les processus créés avec Fawri-Flow, favorisant ainsi la réutilisation des composants et des processus existants au lieu de les développer à partir de zéro. Ce composant "Process" récupère la liste des processus créés avec Fawri-Flow et nous permet de les intégrer facilement à nos pages.
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/list projects.PNG}
+              \caption{Consultation des projets}
+          \end{figure}
 
 
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=9cm]{Figures/process 1.PNG}
-    \caption{Organisation des Processus}
-\end{figure}
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/process 2.PNG}
-    \caption{Ajout du processus \textit{SignatureWithOtp}}
-\end{figure}
+    \item \textbf{Gestion des pages} :
 
-Le processus sélectionné est ajouté à la page. Dans notre cas, nous avons choisi le processus du service vérification avec OTP comme exemple.
-
-Après la création de notre page, on clique sur "Save" pour sauvegarder la page créée (sauvegarder le JSON généré) et on visualise la page en cliquant sur "Preview".
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/list pages.PNG}
+              \caption{Consultation des pages}
+          \end{figure}
 
 
-\item \textbf{La gestion des menus} : 
-Après la création et l'édition des pages, nous passons à la création des éléments de menu. Cela se fait en attribuant les éléments de menu soit à une page créée dans notre projet, soit à une URL externe.
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/manage page.PNG}
+              \caption{Gestion des pages}
+          \end{figure}
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=12cm]{Figures/menu item.PNG}
-    \caption{L'ajout d'un élément au menu}
-\end{figure}
 
-Lors de la création d'un élément de menu dans notre projet Fawri-CMS, nous avons la possibilité de l'affecter à une page spécifique que nous avons créée, ou de le lier à une URL externe. De plus, il est possible de créer des sous-menus pour structurer le contenu de manière hiérarchique. Cette flexibilité permet une personnalisation et une organisation optimale de la navigation au sein de l'application, améliorant ainsi l'expérience utilisateur.
+          En plus des composants de base de cet éditeur basé sur Form.io, nous avons ajouté un nouveau composant "Process" dans la section Premium (voir figure suivante). Ce composant nous permet d'utiliser les processus créés avec Fawri-Flow, favorisant ainsi la réutilisation des composants et des processus existants au lieu de les développer à partir de zéro. Ce composant "Process" récupère la liste des processus créés avec Fawri-Flow et nous permet de les intégrer facilement à nos pages.
 
 
 
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=9cm]{Figures/process 1.PNG}
+              \caption{Organisation des Processus}
+          \end{figure}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/process 2.PNG}
+              \caption{Ajout du processus \textit{SignatureWithOtp}}
+          \end{figure}
 
-\item \textbf{La gestion des permissions} : 
+          Le processus sélectionné est ajouté à la page. Dans notre cas, nous avons choisi le processus du service vérification avec OTP comme exemple.
+
+          Après la création de notre page, on clique sur "Save" pour sauvegarder la page créée (sauvegarder le JSON généré) et on visualise la page en cliquant sur "Preview".
 
 
-La gestion des permissions, qui consiste à définir les droits d'accès à différents niveaux, est essentielle dans tout système. Elle implique notamment la mise en place de rôles tels que le super administrateur, qui détient des privilèges étendus sur l'ensemble du système, et l'administrateur du locataire (Tenant Admin), chargé de gérer les autorisations au niveau spécifique du locataire.
+    \item \textbf{La gestion des menus} :
+          Après la création et l'édition des pages, nous passons à la création des éléments de menu. Cela se fait en attribuant les éléments de menu soit à une page créée dans notre projet, soit à une URL externe.
 
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=17cm]{Figures/permission.PNG}
-    \caption{Gestion des permissions}
-\end{figure}
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=12cm]{Figures/menu item.PNG}
+              \caption{L'ajout d'un élément au menu}
+          \end{figure}
+
+          Lors de la création d'un élément de menu dans notre projet Fawri-CMS, nous avons la possibilité de l'affecter à une page spécifique que nous avons créée, ou de le lier à une URL externe. De plus, il est possible de créer des sous-menus pour structurer le contenu de manière hiérarchique. Cette flexibilité permet une personnalisation et une organisation optimale de la navigation au sein de l'application, améliorant ainsi l'expérience utilisateur.
+
+
+
+
+    \item \textbf{La gestion des permissions} :
+
+
+          La gestion des permissions, qui consiste à définir les droits d'accès à différents niveaux, est essentielle dans tout système. Elle implique notamment la mise en place de rôles tels que le super administrateur, qui détient des privilèges étendus sur l'ensemble du système, et l'administrateur du locataire (Tenant Admin), chargé de gérer les autorisations au niveau spécifique du locataire.
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=17cm]{Figures/permission.PNG}
+              \caption{Gestion des permissions}
+          \end{figure}
 
 
 

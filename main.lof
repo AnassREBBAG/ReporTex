@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Scrum logo}}{21}{figure.caption.23}%
 \contentsline {figure}{\numberline {1.14}{\ignorespaces Microsoft Teams logo}}{21}{figure.caption.24}%
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Microsoft Oulook logo}}{22}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Microsoft Azur DevOps logo}}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Microsoft Azur DevOps logo}}{23}{figure.caption.26}%
 \contentsline {figure}{\numberline {1.17}{\ignorespaces Planning du Projet par Sprints}}{23}{figure.caption.27}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation global}}{29}{figure.caption.29}%
@@ -24,62 +24,64 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d'utilisation : gestion des tenants, éditions et permissions}}{32}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de classes}}{33}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence Récupération de la liste des processus}}{34}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Logo Fawri CMS}}{36}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces La palette des couleurs}}{37}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces La bibliothèque d'icons Font Awsome}}{38}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces La maquette d'interactivité de l'interface utilisateur de Fawri CMS}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence : gestion des projets}}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence : gestion des permissions}}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagramme de séquence : gestion des éditions et des tenants}}{37}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Logo Fawri CMS}}{38}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces La palette des couleurs}}{38}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces La bibliothèque d'icons Font Awsome}}{40}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces La maquette d'interactivité de l'interface utilisateur de Fawri CMS}}{41}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces C\#}}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces SQL}}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces JavaScript}}{43}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Angular framework}}{44}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Node JS logo}}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ABP framework logo}}{45}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces .NET logo}}{46}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Entity Framework Core logo}}{46}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Form.io logo}}{47}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Microsoft SQL Server logo}}{47}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Microsoft SQL Server management studio logo}}{48}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Microsoft Visual studio logo}}{48}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Microsoft Visual studio code logo}}{49}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Git logo}}{49}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces xUnit.net logo}}{50}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Swagger logo}}{50}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces UML logo}}{50}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Figma logo}}{51}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Cycle TDD}}{51}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Les couches DDD}}{54}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Gestion des branches selon TBD}}{55}{figure.caption.59}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Le principe de la multitenancy}}{57}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces L'architecture de la solution suivant DDD }}{57}{figure.caption.61}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Structure du projet Fawri-CMS}}{59}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Couche Presentation}}{59}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Couche Application}}{60}{figure.caption.64}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Couche Infrastructure}}{60}{figure.caption.65}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Couche Domain}}{60}{figure.caption.66}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces La structure du dossier \textit {test}}}{61}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces UML logo}}{44}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Figma logo}}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces C\#}}{45}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SQL}}{45}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces JavaScript}}{46}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Angular framework}}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Node JS logo}}{47}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ABP framework logo}}{48}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces .NET logo}}{49}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Entity Framework Core logo}}{49}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Form.io logo}}{50}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Microsoft SQL Server logo}}{50}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Microsoft SQL Server management studio logo}}{51}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Microsoft Visual studio logo}}{51}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Microsoft Visual studio code logo}}{52}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Git logo}}{52}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces xUnit.net logo}}{53}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Swagger logo}}{53}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Cycle TDD}}{54}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Les couches DDD}}{56}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Gestion des branches selon TBD}}{57}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Le principe de la multitenancy}}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces L'architecture de la solution suivant DDD }}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Structure du projet Fawri-CMS}}{61}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Couche Presentation}}{62}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Couche Application}}{62}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Couche Infrastructure}}{62}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Couche Domain}}{63}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces La structure du dossier \textit {test}}}{63}{figure.caption.70}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ABP CLI}}{64}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure du dossier Domain}}{65}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure du dossier Infrastructure}}{65}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Configuration des DbSet}}{66}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Les DTOs dans la couche Application}}{67}{figure.caption.72}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Implementation des services}}{68}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interface Swagger}}{71}{figure.caption.82}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Structure du couche Web}}{72}{figure.caption.83}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface de l'authentification}}{74}{figure.caption.84}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Implementation de la \textit {multitenancy}}}{75}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Page de l'authentification}}{76}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Les fonctionnalités du super admin}}{76}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface d'ajout d'une édition}}{77}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Liste des tenants}}{77}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Création d'un nouveau projet}}{78}{figure.caption.90}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Consultation des projets}}{79}{figure.caption.91}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Consultation des pages}}{79}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Gestion des pages}}{80}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Organisation des Processus}}{81}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Ajout du processus \textit {SignatureWithOtp}}}{81}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces L'ajout d'un élément au menu}}{82}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Gestion des permissions}}{83}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure du dossier Domain}}{66}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure du dossier Infrastructure}}{67}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Configuration des DbSet}}{67}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Les DTOs dans la couche Application}}{68}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Implementation des services}}{69}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Interface Swagger}}{72}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Structure du couche Web}}{73}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Interface de l'authentification}}{75}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Implementation de la \textit {multitenancy}}}{76}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Page de l'authentification}}{77}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Les fonctionnalités du super admin}}{77}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Interface d'ajout d'une édition}}{78}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Liste des tenants}}{78}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Création d'un nouveau projet}}{79}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Consultation des projets}}{80}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Consultation des pages}}{80}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Gestion des pages}}{81}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Organisation des Processus}}{82}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Ajout du processus \textit {SignatureWithOtp}}}{82}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces L'ajout d'un élément au menu}}{83}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Gestion des permissions}}{84}{figure.caption.99}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
