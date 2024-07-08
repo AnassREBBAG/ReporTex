@@ -5,6 +5,8 @@
 \setcode{utf8}
 % \usepackage{babel}
 \usepackage[french]{babel}
+
+
 \usepackage{svg}
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -62,10 +64,10 @@
 % Clear Header Style on the Last Empty Odd pages
 \makeatletter
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
-            \hbox{}%
-            \thispagestyle{empty}%              % Empty header styles
-            \newpage%
-            \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+                  \hbox{}%
+                  \thispagestyle{empty}%              % Empty header styles
+                  \newpage%
+                  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
 
 
@@ -106,20 +108,20 @@
 \usepackage{booktabs}
 
 \geometry{
-    letterpaper,
-    left=1.5cm,
-    right=1.5cm,
-    top=1.5cm,
-    bottom=1.5cm
+      letterpaper,
+      left=1.5cm,
+      right=1.5cm,
+      top=1.5cm,
+      bottom=1.5cm
 }
 
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
-    \null
-    \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
-    \newpage}
+      \null
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \newpage}
 
 
 \usepackage[acronym]{glossaries}
@@ -129,14 +131,14 @@
 
 \newenvironment{dedication}
 {%\clearpage           % we want a new page          %% I commented this
-    \thispagestyle{empty}% no header and footer
-    \vspace*{\stretch{1}}% some space at the top
-    \itshape             % the text is in italics
-    \raggedleft          % flush to the right margin
+      \thispagestyle{empty}% no header and footer
+      \vspace*{\stretch{1}}% some space at the top
+      \itshape             % the text is in italics
+      \raggedleft          % flush to the right margin
 }
 {\par % end the paragraph
-    \vspace{\stretch{3}} % space at bottom is three times that at the top
-    \clearpage           % finish off the page
+      \vspace{\stretch{3}} % space at bottom is three times that at the top
+      \clearpage           % finish off the page
 }
 
 

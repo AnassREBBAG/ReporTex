@@ -577,6 +577,7 @@ INPUT .\Frontmatter\Acknowledgements.tex
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT .\Frontmatter\Acknowledgements.tex
 INPUT Frontmatter\Acknowledgements.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Frontmatter\Résumé.tex
 INPUT .\Frontmatter\Résumé.tex
 INPUT .\Frontmatter\Résumé.tex
@@ -661,13 +662,13 @@ INPUT .\Figures\outsystems.png
 INPUT .\Figures\outsystems.png
 INPUT .\Figures\outsystems.png
 INPUT .\Figures\outsystems.png
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
-INPUT .\Figures\mendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
+INPUT .\Figures\imendix.jpg
 INPUT .\Figures\pega.jpg
 INPUT .\Figures\pega.jpg
 INPUT .\Figures\pega.jpg
@@ -757,7 +758,6 @@ INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT .\Chapters\Chapter2.tex
 INPUT Chapters\Chapter2.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Figures\use case globale.png
 INPUT .\Figures\use case globale.png
 INPUT .\Figures\use case globale.png
@@ -1226,8 +1226,6 @@ INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi720\
 INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi720\xnsh14.pk
 INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi1493\xnsh14.pk
 INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\public\arabtex\dpi1493\xnsh14.pk
-INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\anass\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
